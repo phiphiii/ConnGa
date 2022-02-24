@@ -20,6 +20,10 @@ namespace conngaProj
             userControl11.Hide();
             userControl21.Hide();
             userControl31.Hide();
+
+            PictureBox pb1 = new PictureBox();
+            pb1.ImageLocation = "./pad.png";
+            pb1.SizeMode = PictureBoxSizeMode.AutoSize;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,6 +32,7 @@ namespace conngaProj
             userControl31.Hide();
             userControl11.Show();
             userControl11.BringToFront();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -50,5 +55,17 @@ namespace conngaProj
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
+
+
 }

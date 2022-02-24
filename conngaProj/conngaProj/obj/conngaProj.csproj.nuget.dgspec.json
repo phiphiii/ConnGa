@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\magda\\source\\repos\\conngaProj\\conngaProj\\conngaProj.csproj": {}
+    "C:\\Users\\magda\\Documents\\GitHub\\ConGa\\conngaProj\\conngaProj\\conngaProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\magda\\source\\repos\\conngaProj\\conngaProj\\conngaProj.csproj": {
+    "C:\\Users\\magda\\Documents\\GitHub\\ConGa\\conngaProj\\conngaProj\\conngaProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\magda\\source\\repos\\conngaProj\\conngaProj\\conngaProj.csproj",
+        "projectUniqueName": "C:\\Users\\magda\\Documents\\GitHub\\ConGa\\conngaProj\\conngaProj\\conngaProj.csproj",
         "projectName": "conngaProj",
-        "projectPath": "C:\\Users\\magda\\source\\repos\\conngaProj\\conngaProj\\conngaProj.csproj",
+        "projectPath": "C:\\Users\\magda\\Documents\\GitHub\\ConGa\\conngaProj\\conngaProj\\conngaProj.csproj",
         "packagesPath": "C:\\Users\\magda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\magda\\source\\repos\\conngaProj\\conngaProj\\obj\\",
+        "outputPath": "C:\\Users\\magda\\Documents\\GitHub\\ConGa\\conngaProj\\conngaProj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
