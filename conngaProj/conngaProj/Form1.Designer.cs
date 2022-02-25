@@ -35,10 +35,10 @@
             this.btn_stats = new ePOSOne.btnProduct.Button_WOC();
             this.stat_actv = new System.Windows.Forms.PictureBox();
             this.btn_library = new ePOSOne.btnProduct.Button_WOC();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button3_2 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.btn_install = new ePOSOne.btnProduct.Button_WOC();
             this.install_actv = new System.Windows.Forms.PictureBox();
             this.userControl31 = new conngaProj.UserControl3();
@@ -72,10 +72,10 @@
             this.boczny.Controls.Add(this.btn_stats);
             this.boczny.Controls.Add(this.stat_actv);
             this.boczny.Controls.Add(this.btn_library);
+            this.boczny.Controls.Add(this.button1);
             this.boczny.Controls.Add(this.pictureBox2);
             this.boczny.Controls.Add(this.button3_2);
             this.boczny.Controls.Add(this.button2);
-            this.boczny.Controls.Add(this.button1);
             this.boczny.Controls.Add(this.btn_install);
             this.boczny.Controls.Add(this.install_actv);
             this.boczny.Location = new System.Drawing.Point(0, 0);
@@ -143,6 +143,19 @@
             this.btn_library.UseVisualStyleBackColor = false;
             this.btn_library.Click += new System.EventHandler(this.btn_library_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(37, 486);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(160, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Posiadane Gry";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -166,23 +179,13 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(26, 418);
+            this.button2.Location = new System.Drawing.Point(37, 418);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 30);
             this.button2.TabIndex = 1;
             this.button2.Text = "Zainstalowane Gry";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(37, 343);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Posiadane Gry";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_install
             // 
@@ -215,7 +218,7 @@
             // userControl31
             // 
             this.userControl31.BackColor = System.Drawing.SystemColors.GrayText;
-            this.userControl31.Location = new System.Drawing.Point(249, 0);
+            this.userControl31.Location = new System.Drawing.Point(246, -28);
             this.userControl31.Name = "userControl31";
             this.userControl31.Size = new System.Drawing.Size(1015, 681);
             this.userControl31.TabIndex = 2;
@@ -223,7 +226,7 @@
             // userControl21
             // 
             this.userControl21.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.userControl21.Location = new System.Drawing.Point(249, 0);
+            this.userControl21.Location = new System.Drawing.Point(246, -28);
             this.userControl21.Name = "userControl21";
             this.userControl21.Size = new System.Drawing.Size(1015, 681);
             this.userControl21.TabIndex = 1;
@@ -231,7 +234,7 @@
             // userControl11
             // 
             this.userControl11.BackColor = System.Drawing.SystemColors.Info;
-            this.userControl11.Location = new System.Drawing.Point(249, 0);
+            this.userControl11.Location = new System.Drawing.Point(249, -48);
             this.userControl11.Name = "userControl11";
             this.userControl11.Size = new System.Drawing.Size(1015, 681);
             this.userControl11.TabIndex = 0;

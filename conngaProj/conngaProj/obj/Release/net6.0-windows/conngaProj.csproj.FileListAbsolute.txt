@@ -38,7 +38,6 @@ C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-w
 C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.pdb
 C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.genruntimeconfig.cache
 C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.Properties.Resources.resources
-C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.csproj.AssemblyReference.cache
 D:\ConnGa\ConGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.exe
 D:\ConnGa\ConGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.deps.json
 D:\ConnGa\ConGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.runtimeconfig.json

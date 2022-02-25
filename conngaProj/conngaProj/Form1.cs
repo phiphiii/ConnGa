@@ -1,7 +1,20 @@
+using System.Runtime.InteropServices;
+
 namespace conngaProj
 {
     public partial class ConnGa : Form
     {
+
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+            (
+              int nLeft
+            , int nTop
+            , int nRight
+            , int nBottom
+            , int nWidthEllipse
+            , int nHeightEllipse
+            );
         public ConnGa()
         {
             InitializeComponent();
@@ -23,10 +36,7 @@ namespace conngaProj
             userControl21.Hide();
             userControl31.Hide();
 
-            PictureBox pb1 = new PictureBox();
-            pb1.ImageLocation = "./pad.png";
-            pb1.SizeMode = PictureBoxSizeMode.AutoSize;
-
+            button1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button1.Width,button1.Height, 30, 30));
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,6 +45,8 @@ namespace conngaProj
             userControl31.Hide();
             userControl11.Show();
             userControl11.BringToFront();
+
+
 
         }
 
