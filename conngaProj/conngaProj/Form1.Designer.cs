@@ -40,6 +40,13 @@
             this.userControl31 = new conngaProj.UserControl3();
             this.userControl21 = new conngaProj.UserControl2();
             this.userControl11 = new conngaProj.UserControl1();
+            this.Biblioteka = new ePOSOne.btnProduct.Button_WOC();
+            this.button_woc2 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_woc3 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_woc4 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_woc5 = new ePOSOne.btnProduct.Button_WOC();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.boczny.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -62,6 +69,13 @@
             // boczny
             // 
             this.boczny.BackColor = System.Drawing.SystemColors.Control;
+            this.boczny.Controls.Add(this.label2);
+            this.boczny.Controls.Add(this.label1);
+            this.boczny.Controls.Add(this.button_woc5);
+            this.boczny.Controls.Add(this.button_woc4);
+            this.boczny.Controls.Add(this.button_woc3);
+            this.boczny.Controls.Add(this.button_woc2);
+            this.boczny.Controls.Add(this.Biblioteka);
             this.boczny.Controls.Add(this.pictureBox2);
             this.boczny.Controls.Add(this.pictureBox1);
             this.boczny.Controls.Add(this.button_woc1);
@@ -116,7 +130,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(37, 319);
+            this.button3.Location = new System.Drawing.Point(37, 597);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(160, 30);
             this.button3.TabIndex = 2;
@@ -126,7 +140,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(37, 263);
+            this.button2.Location = new System.Drawing.Point(37, 561);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 30);
             this.button2.TabIndex = 1;
@@ -136,7 +150,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(37, 227);
+            this.button1.Location = new System.Drawing.Point(37, 525);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 30);
             this.button1.TabIndex = 0;
@@ -168,6 +182,116 @@
             this.userControl11.Size = new System.Drawing.Size(1015, 681);
             this.userControl11.TabIndex = 0;
             // 
+            // Biblioteka
+            // 
+            this.Biblioteka.BackColor = System.Drawing.Color.Transparent;
+            this.Biblioteka.BorderColor = System.Drawing.Color.DimGray;
+            this.Biblioteka.ButtonColor = System.Drawing.Color.DimGray;
+            this.Biblioteka.FlatAppearance.BorderSize = 0;
+            this.Biblioteka.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Biblioteka.Location = new System.Drawing.Point(26, 208);
+            this.Biblioteka.Name = "Biblioteka";
+            this.Biblioteka.OnHoverBorderColor = System.Drawing.Color.DimGray;
+            this.Biblioteka.OnHoverButtonColor = System.Drawing.Color.DimGray;
+            this.Biblioteka.OnHoverTextColor = System.Drawing.Color.White;
+            this.Biblioteka.Size = new System.Drawing.Size(192, 35);
+            this.Biblioteka.TabIndex = 6;
+            this.Biblioteka.Text = "Biblioteka";
+            this.Biblioteka.TextColor = System.Drawing.Color.White;
+            this.Biblioteka.UseVisualStyleBackColor = false;
+            // 
+            // button_woc2
+            // 
+            this.button_woc2.BackColor = System.Drawing.Color.Transparent;
+            this.button_woc2.BorderColor = System.Drawing.Color.DimGray;
+            this.button_woc2.ButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc2.FlatAppearance.BorderSize = 0;
+            this.button_woc2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_woc2.Location = new System.Drawing.Point(26, 249);
+            this.button_woc2.Name = "button_woc2";
+            this.button_woc2.OnHoverBorderColor = System.Drawing.Color.DimGray;
+            this.button_woc2.OnHoverButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc2.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_woc2.Size = new System.Drawing.Size(192, 35);
+            this.button_woc2.TabIndex = 7;
+            this.button_woc2.Text = "Zainstalowane";
+            this.button_woc2.TextColor = System.Drawing.Color.White;
+            this.button_woc2.UseVisualStyleBackColor = false;
+            // 
+            // button_woc3
+            // 
+            this.button_woc3.BackColor = System.Drawing.Color.Transparent;
+            this.button_woc3.BorderColor = System.Drawing.Color.DimGray;
+            this.button_woc3.ButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc3.FlatAppearance.BorderSize = 0;
+            this.button_woc3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_woc3.Location = new System.Drawing.Point(26, 359);
+            this.button_woc3.Name = "button_woc3";
+            this.button_woc3.OnHoverBorderColor = System.Drawing.Color.DimGray;
+            this.button_woc3.OnHoverButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc3.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_woc3.Size = new System.Drawing.Size(192, 35);
+            this.button_woc3.TabIndex = 8;
+            this.button_woc3.Text = "Mój Profil";
+            this.button_woc3.TextColor = System.Drawing.Color.White;
+            this.button_woc3.UseVisualStyleBackColor = false;
+            // 
+            // button_woc4
+            // 
+            this.button_woc4.BackColor = System.Drawing.Color.Transparent;
+            this.button_woc4.BorderColor = System.Drawing.Color.DimGray;
+            this.button_woc4.ButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc4.FlatAppearance.BorderSize = 0;
+            this.button_woc4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_woc4.Location = new System.Drawing.Point(26, 400);
+            this.button_woc4.Name = "button_woc4";
+            this.button_woc4.OnHoverBorderColor = System.Drawing.Color.DimGray;
+            this.button_woc4.OnHoverButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc4.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_woc4.Size = new System.Drawing.Size(192, 35);
+            this.button_woc4.TabIndex = 9;
+            this.button_woc4.Text = "Aktywność";
+            this.button_woc4.TextColor = System.Drawing.Color.White;
+            this.button_woc4.UseVisualStyleBackColor = false;
+            // 
+            // button_woc5
+            // 
+            this.button_woc5.BackColor = System.Drawing.Color.Transparent;
+            this.button_woc5.BorderColor = System.Drawing.Color.DimGray;
+            this.button_woc5.ButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc5.FlatAppearance.BorderSize = 0;
+            this.button_woc5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_woc5.Location = new System.Drawing.Point(26, 634);
+            this.button_woc5.Name = "button_woc5";
+            this.button_woc5.OnHoverBorderColor = System.Drawing.Color.DimGray;
+            this.button_woc5.OnHoverButtonColor = System.Drawing.Color.DimGray;
+            this.button_woc5.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_woc5.Size = new System.Drawing.Size(192, 35);
+            this.button_woc5.TabIndex = 10;
+            this.button_woc5.Text = "Dodaj Znajomego";
+            this.button_woc5.TextColor = System.Drawing.Color.White;
+            this.button_woc5.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(33, 132);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 28);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "GRY";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(33, 319);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(181, 28);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "SPOŁECZNOŚĆ";
+            // 
             // ConnGa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -180,6 +304,7 @@
             this.Text = "ConnGa";
             this.panel1.ResumeLayout(false);
             this.boczny.ResumeLayout(false);
+            this.boczny.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -199,5 +324,12 @@
         private ePOSOne.btnProduct.Button_WOC button_woc1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private ePOSOne.btnProduct.Button_WOC button_woc3;
+        private ePOSOne.btnProduct.Button_WOC button_woc2;
+        private ePOSOne.btnProduct.Button_WOC Biblioteka;
+        private Label label2;
+        private Label label1;
+        private ePOSOne.btnProduct.Button_WOC button_woc5;
+        private ePOSOne.btnProduct.Button_WOC button_woc4;
     }
 }
