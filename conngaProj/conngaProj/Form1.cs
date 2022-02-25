@@ -4,25 +4,19 @@ namespace conngaProj
 {
     public partial class ConnGa : Form
     {
-
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn
-            (
-              int nLeft
-            , int nTop
-            , int nRight
-            , int nBottom
-            , int nWidthEllipse
-            , int nHeightEllipse
-            );
         public ConnGa()
         {
+
             InitializeComponent();
+
+            statystykiW.FlatAppearance.MouseOverBackColor = statystykiW.BackColor;
+            statystykiW.BackColorChanged += (s, e) => {
+                statystykiW.FlatAppearance.MouseOverBackColor = statystykiW.BackColor;
+            };
+
             userControl11.Hide();
             userControl21.Hide();
             userControl31.Hide();
-            stat_actv.Hide();
-            install_actv.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -35,8 +29,6 @@ namespace conngaProj
             userControl11.Hide();
             userControl21.Hide();
             userControl31.Hide();
-
-            button1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button1.Width,button1.Height, 30, 30));
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,9 +37,6 @@ namespace conngaProj
             userControl31.Hide();
             userControl11.Show();
             userControl11.BringToFront();
-
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -58,12 +47,16 @@ namespace conngaProj
             userControl21.BringToFront();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e) // button statystyki
         {
-            userControl11.Hide();
+            userControl11.BringToFront();
+            userControl11.Show();
+
             userControl21.Hide();
-            userControl31.Show();
-            userControl31.BringToFront();
+            userControl31.Hide();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -84,8 +77,7 @@ namespace conngaProj
         private void btn_stats_Click(object sender, EventArgs e)
         {
             userControl11.Hide();
-            stat_actv.Show();
-            install_actv.Hide();
+
             userControl21.Hide();
             userControl31.Show();
             userControl31.BringToFront();
@@ -110,10 +102,87 @@ namespace conngaProj
         {
             userControl11.Hide();
             userControl31.Hide();
-            stat_actv.Hide();
-            install_actv.Show();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+
             userControl21.Show();
             userControl21.BringToFront();
+        }
+
+        private void mojProfil_Click(object sender, EventArgs e) // button mój profil
+        {
+            mojProfil1.BringToFront();
+            mojProfil1.Show();
+
+            userControl11.Hide();
+            userControl21.Hide();
+            userControl31.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void userControl31_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userControl11_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bibliotekaW_Click(object sender, EventArgs e) // button biblioteka
+        {
+            userControl21.BringToFront();
+            userControl21.Show();
+
+            userControl11.Hide();
+            userControl31.Hide();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void zainstalowaneW_Click(object sender, EventArgs e) // button biblioteka
+        {
+            userControl31.BringToFront();
+            userControl31.Show();
+
+            userControl11.Hide();
+            userControl21.Hide();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void aktywnoscW_Click(object sender, EventArgs e) // button aktywnoœæ
+        {
+            aktywnosc1.BringToFront();
+            aktywnosc1.Show();
+
+            userControl11.Hide();
+            userControl21.Hide();
+            userControl31.Hide();
+            mojProfil1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void dodajZnajomego_Click(object sender, EventArgs e) // button dodaj znajomego
+        {
+
+        }
+
+        private void znaj2_Click(object sender, EventArgs e) // button profil Kozy
+        {
+            profilKozy1.BringToFront();
+            profilKozy1.Show();
+
+            userControl11.Hide();
+            userControl21.Hide();
+            userControl31.Hide();
+            aktywnosc1.Hide();
+            mojProfil1.Hide();
         }
     }
 

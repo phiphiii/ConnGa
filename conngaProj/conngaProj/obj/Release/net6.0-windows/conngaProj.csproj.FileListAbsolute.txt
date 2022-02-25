@@ -58,3 +58,6 @@ D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.dll
 D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\ref\conngaProj.dll
 D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.pdb
 D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.genruntimeconfig.cache
+C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.Aktywnosc.resources
+C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.mojProfil.resources
+C:\Users\magda\Documents\GitHub\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.profilKozy.resources
