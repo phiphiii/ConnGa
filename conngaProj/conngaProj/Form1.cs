@@ -8,6 +8,8 @@ namespace conngaProj
             userControl11.Hide();
             userControl21.Hide();
             userControl31.Hide();
+            stat_actv.Hide();
+            install_actv.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -24,6 +26,7 @@ namespace conngaProj
             PictureBox pb1 = new PictureBox();
             pb1.ImageLocation = "./pad.png";
             pb1.SizeMode = PictureBoxSizeMode.AutoSize;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -64,6 +67,41 @@ namespace conngaProj
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btn_stats_Click(object sender, EventArgs e)
+        {
+            userControl11.Hide();
+            stat_actv.Show();
+            install_actv.Hide();
+            userControl21.Hide();
+            userControl31.Show();
+            userControl31.BringToFront();
+        }
+
+        private void btn_library_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_install_Click(object sender, EventArgs e)
+        {
+            userControl11.Hide();
+            userControl31.Hide();
+            stat_actv.Hide();
+            install_actv.Show();
+            userControl21.Show();
+            userControl21.BringToFront();
         }
     }
 

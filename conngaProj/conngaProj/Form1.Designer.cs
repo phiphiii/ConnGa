@@ -31,19 +31,25 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConnGa));
             this.panel1 = new System.Windows.Forms.Panel();
             this.boczny = new System.Windows.Forms.Panel();
+            this.btn_stats = new ePOSOne.btnProduct.Button_WOC();
+            this.stat_actv = new System.Windows.Forms.PictureBox();
+            this.btn_library = new ePOSOne.btnProduct.Button_WOC();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button_woc1 = new ePOSOne.btnProduct.Button_WOC();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button3_2 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_install = new ePOSOne.btnProduct.Button_WOC();
+            this.install_actv = new System.Windows.Forms.PictureBox();
             this.userControl31 = new conngaProj.UserControl3();
             this.userControl21 = new conngaProj.UserControl2();
             this.userControl11 = new conngaProj.UserControl1();
             this.panel1.SuspendLayout();
             this.boczny.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stat_actv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.install_actv)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -61,25 +67,76 @@
             // 
             // boczny
             // 
-            this.boczny.BackColor = System.Drawing.SystemColors.Control;
-            this.boczny.Controls.Add(this.pictureBox2);
+            this.boczny.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.boczny.Controls.Add(this.pictureBox1);
-            this.boczny.Controls.Add(this.button_woc1);
-            this.boczny.Controls.Add(this.button3);
+            this.boczny.Controls.Add(this.btn_stats);
+            this.boczny.Controls.Add(this.stat_actv);
+            this.boczny.Controls.Add(this.btn_library);
+            this.boczny.Controls.Add(this.pictureBox2);
+            this.boczny.Controls.Add(this.button3_2);
             this.boczny.Controls.Add(this.button2);
             this.boczny.Controls.Add(this.button1);
+            this.boczny.Controls.Add(this.btn_install);
+            this.boczny.Controls.Add(this.install_actv);
             this.boczny.Location = new System.Drawing.Point(0, 0);
             this.boczny.Name = "boczny";
             this.boczny.Size = new System.Drawing.Size(250, 681);
             this.boczny.TabIndex = 1;
             this.boczny.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // btn_stats
+            // 
+            this.btn_stats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.btn_stats.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_stats.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_stats.FlatAppearance.BorderSize = 0;
+            this.btn_stats.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_stats.Location = new System.Drawing.Point(26, 164);
+            this.btn_stats.Name = "btn_stats";
+            this.btn_stats.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_stats.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_stats.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_stats.Size = new System.Drawing.Size(192, 35);
+            this.btn_stats.TabIndex = 3;
+            this.btn_stats.Text = "Statystyki";
+            this.btn_stats.TextColor = System.Drawing.Color.White;
+            this.btn_stats.UseVisualStyleBackColor = false;
+            this.btn_stats.Click += new System.EventHandler(this.btn_stats_Click);
+            // 
+            // stat_actv
+            // 
+            this.stat_actv.BackColor = System.Drawing.Color.White;
+            this.stat_actv.Location = new System.Drawing.Point(53, 192);
+            this.stat_actv.Name = "stat_actv";
+            this.stat_actv.Size = new System.Drawing.Size(133, 10);
+            this.stat_actv.TabIndex = 9;
+            this.stat_actv.TabStop = false;
+            // 
+            // btn_library
+            // 
+            this.btn_library.BackColor = System.Drawing.Color.Transparent;
+            this.btn_library.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_library.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_library.FlatAppearance.BorderSize = 0;
+            this.btn_library.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_library.Location = new System.Drawing.Point(26, 208);
+            this.btn_library.Name = "btn_library";
+            this.btn_library.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_library.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_library.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_library.Size = new System.Drawing.Size(192, 35);
+            this.btn_library.TabIndex = 6;
+            this.btn_library.Text = "Biblioteka";
+            this.btn_library.TextColor = System.Drawing.Color.White;
+            this.btn_library.UseVisualStyleBackColor = false;
+            this.btn_library.Click += new System.EventHandler(this.btn_library_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(37, 27);
+            this.pictureBox2.Location = new System.Drawing.Point(26, 21);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(164, 102);
+            this.pictureBox2.Size = new System.Drawing.Size(202, 102);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -88,45 +145,27 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(37, 167);
+            this.pictureBox1.Location = new System.Drawing.Point(37, 164);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox1.Size = new System.Drawing.Size(57, 35);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button_woc1
+            // button3_2
             // 
-            this.button_woc1.BackColor = System.Drawing.Color.Transparent;
-            this.button_woc1.BorderColor = System.Drawing.Color.DimGray;
-            this.button_woc1.ButtonColor = System.Drawing.Color.DimGray;
-            this.button_woc1.FlatAppearance.BorderSize = 0;
-            this.button_woc1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_woc1.Location = new System.Drawing.Point(26, 167);
-            this.button_woc1.Name = "button_woc1";
-            this.button_woc1.OnHoverBorderColor = System.Drawing.Color.DimGray;
-            this.button_woc1.OnHoverButtonColor = System.Drawing.Color.DimGray;
-            this.button_woc1.OnHoverTextColor = System.Drawing.Color.White;
-            this.button_woc1.Size = new System.Drawing.Size(192, 35);
-            this.button_woc1.TabIndex = 3;
-            this.button_woc1.Text = "Statystyki";
-            this.button_woc1.TextColor = System.Drawing.Color.White;
-            this.button_woc1.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(37, 319);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 30);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Statystyki";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3_2.Location = new System.Drawing.Point(37, 319);
+            this.button3_2.Name = "button3_2";
+            this.button3_2.Size = new System.Drawing.Size(160, 30);
+            this.button3_2.TabIndex = 2;
+            this.button3_2.Text = "Statystyki";
+            this.button3_2.UseVisualStyleBackColor = true;
+            this.button3_2.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(37, 263);
+            this.button2.Location = new System.Drawing.Point(26, 418);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 30);
             this.button2.TabIndex = 1;
@@ -136,13 +175,41 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(37, 227);
+            this.button1.Location = new System.Drawing.Point(37, 343);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 30);
             this.button1.TabIndex = 0;
             this.button1.Text = "Posiadane Gry";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btn_install
+            // 
+            this.btn_install.BackColor = System.Drawing.Color.Transparent;
+            this.btn_install.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_install.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_install.FlatAppearance.BorderSize = 0;
+            this.btn_install.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_install.Location = new System.Drawing.Point(26, 249);
+            this.btn_install.Name = "btn_install";
+            this.btn_install.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_install.OnHoverButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.btn_install.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_install.Size = new System.Drawing.Size(192, 35);
+            this.btn_install.TabIndex = 8;
+            this.btn_install.Text = "Zainstalowane";
+            this.btn_install.TextColor = System.Drawing.Color.White;
+            this.btn_install.UseVisualStyleBackColor = false;
+            this.btn_install.Click += new System.EventHandler(this.btn_install_Click);
+            // 
+            // install_actv
+            // 
+            this.install_actv.BackColor = System.Drawing.Color.White;
+            this.install_actv.Location = new System.Drawing.Point(53, 277);
+            this.install_actv.Name = "install_actv";
+            this.install_actv.Size = new System.Drawing.Size(133, 10);
+            this.install_actv.TabIndex = 10;
+            this.install_actv.TabStop = false;
             // 
             // userControl31
             // 
@@ -180,8 +247,10 @@
             this.Text = "ConnGa";
             this.panel1.ResumeLayout(false);
             this.boczny.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.stat_actv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.install_actv)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -190,14 +259,18 @@
 
         private Panel panel1;
         private Panel boczny;
-        private Button button3;
+        private Button button3_2;
         private Button button2;
         private Button button1;
         private UserControl3 userControl31;
         private UserControl2 userControl21;
         private UserControl1 userControl11;
-        private ePOSOne.btnProduct.Button_WOC button_woc1;
+        private ePOSOne.btnProduct.Button_WOC btn_stats;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private ePOSOne.btnProduct.Button_WOC btn_library;
+        private ePOSOne.btnProduct.Button_WOC btn_install;
+        private PictureBox stat_actv;
+        private PictureBox install_actv;
     }
 }
