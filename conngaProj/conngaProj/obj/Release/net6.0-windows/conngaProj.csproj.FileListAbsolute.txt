@@ -45,7 +45,6 @@ D:\ConnGa\ConGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.runt
 D:\ConnGa\ConGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.dll
 D:\ConnGa\ConGa\conngaProj\conngaProj\bin\Release\net6.0-windows\ref\conngaProj.dll
 D:\ConnGa\ConGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.pdb
-D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.csproj.AssemblyReference.cache
 D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.ConnGa.resources
 D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.Properties.Resources.resources
 D:\ConnGa\ConGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.UserControl1.resources
