@@ -34,6 +34,12 @@
             this.aktywnosc1 = new conngaProj.Aktywnosc();
             this.mojProfil1 = new conngaProj.mojProfil();
             this.boczny = new System.Windows.Forms.Panel();
+            this.gry = new System.Windows.Forms.PictureBox();
+            this.aktywBezBialego = new System.Windows.Forms.Button();
+            this.mojProfBezBialego = new System.Windows.Forms.Button();
+            this.zainstalBezBialego = new System.Windows.Forms.Button();
+            this.biblioBezBialego = new System.Windows.Forms.Button();
+            this.statyBezBialego = new System.Windows.Forms.Button();
             this.znaj2 = new System.Windows.Forms.Button();
             this.znaj1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -47,10 +53,13 @@
             this.userControl31 = new conngaProj.UserControl3();
             this.userControl21 = new conngaProj.UserControl2();
             this.userControl11 = new conngaProj.UserControl1();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.boczny.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gry)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -96,6 +105,13 @@
             // boczny
             // 
             this.boczny.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.boczny.Controls.Add(this.pictureBox2);
+            this.boczny.Controls.Add(this.gry);
+            this.boczny.Controls.Add(this.aktywBezBialego);
+            this.boczny.Controls.Add(this.mojProfBezBialego);
+            this.boczny.Controls.Add(this.zainstalBezBialego);
+            this.boczny.Controls.Add(this.biblioBezBialego);
+            this.boczny.Controls.Add(this.statyBezBialego);
             this.boczny.Controls.Add(this.znaj2);
             this.boczny.Controls.Add(this.znaj1);
             this.boczny.Controls.Add(this.pictureBox1);
@@ -108,9 +124,89 @@
             this.boczny.Controls.Add(this.statystykiW);
             this.boczny.Location = new System.Drawing.Point(0, 0);
             this.boczny.Name = "boczny";
-            this.boczny.Size = new System.Drawing.Size(250, 680);
+            this.boczny.Size = new System.Drawing.Size(250, 681);
             this.boczny.TabIndex = 1;
             this.boczny.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // gry
+            // 
+            this.gry.Image = ((System.Drawing.Image)(resources.GetObject("gry.Image")));
+            this.gry.Location = new System.Drawing.Point(30, 302);
+            this.gry.Name = "gry";
+            this.gry.Size = new System.Drawing.Size(30, 12);
+            this.gry.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.gry.TabIndex = 19;
+            this.gry.TabStop = false;
+            // 
+            // aktywBezBialego
+            // 
+            this.aktywBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.aktywBezBialego.FlatAppearance.BorderSize = 0;
+            this.aktywBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.aktywBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("aktywBezBialego.Image")));
+            this.aktywBezBialego.Location = new System.Drawing.Point(26, 365);
+            this.aktywBezBialego.Margin = new System.Windows.Forms.Padding(0);
+            this.aktywBezBialego.Name = "aktywBezBialego";
+            this.aktywBezBialego.Size = new System.Drawing.Size(180, 28);
+            this.aktywBezBialego.TabIndex = 18;
+            this.aktywBezBialego.UseVisualStyleBackColor = false;
+            this.aktywBezBialego.Click += new System.EventHandler(this.aktywBezBialego_Click);
+            // 
+            // mojProfBezBialego
+            // 
+            this.mojProfBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.mojProfBezBialego.FlatAppearance.BorderSize = 0;
+            this.mojProfBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mojProfBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("mojProfBezBialego.Image")));
+            this.mojProfBezBialego.Location = new System.Drawing.Point(26, 327);
+            this.mojProfBezBialego.Margin = new System.Windows.Forms.Padding(0);
+            this.mojProfBezBialego.Name = "mojProfBezBialego";
+            this.mojProfBezBialego.Size = new System.Drawing.Size(180, 28);
+            this.mojProfBezBialego.TabIndex = 17;
+            this.mojProfBezBialego.UseVisualStyleBackColor = false;
+            this.mojProfBezBialego.Click += new System.EventHandler(this.mojProfBezBialego_Click);
+            // 
+            // zainstalBezBialego
+            // 
+            this.zainstalBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.zainstalBezBialego.FlatAppearance.BorderSize = 0;
+            this.zainstalBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zainstalBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("zainstalBezBialego.Image")));
+            this.zainstalBezBialego.Location = new System.Drawing.Point(26, 218);
+            this.zainstalBezBialego.Margin = new System.Windows.Forms.Padding(0);
+            this.zainstalBezBialego.Name = "zainstalBezBialego";
+            this.zainstalBezBialego.Size = new System.Drawing.Size(180, 28);
+            this.zainstalBezBialego.TabIndex = 16;
+            this.zainstalBezBialego.UseVisualStyleBackColor = false;
+            this.zainstalBezBialego.Click += new System.EventHandler(this.zainstalBezBialego_Click);
+            // 
+            // biblioBezBialego
+            // 
+            this.biblioBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.biblioBezBialego.FlatAppearance.BorderSize = 0;
+            this.biblioBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.biblioBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("biblioBezBialego.Image")));
+            this.biblioBezBialego.Location = new System.Drawing.Point(26, 181);
+            this.biblioBezBialego.Margin = new System.Windows.Forms.Padding(0);
+            this.biblioBezBialego.Name = "biblioBezBialego";
+            this.biblioBezBialego.Size = new System.Drawing.Size(180, 28);
+            this.biblioBezBialego.TabIndex = 15;
+            this.biblioBezBialego.UseVisualStyleBackColor = false;
+            this.biblioBezBialego.Click += new System.EventHandler(this.biblioBezBialego_Click);
+            // 
+            // statyBezBialego
+            // 
+            this.statyBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.statyBezBialego.FlatAppearance.BorderSize = 0;
+            this.statyBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.statyBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("statyBezBialego.Image")));
+            this.statyBezBialego.Location = new System.Drawing.Point(26, 140);
+            this.statyBezBialego.Margin = new System.Windows.Forms.Padding(0);
+            this.statyBezBialego.Name = "statyBezBialego";
+            this.statyBezBialego.Size = new System.Drawing.Size(180, 28);
+            this.statyBezBialego.TabIndex = 14;
+            this.statyBezBialego.UseVisualStyleBackColor = false;
+            this.statyBezBialego.Click += new System.EventHandler(this.statyBezBialego_Click);
             // 
             // znaj2
             // 
@@ -118,10 +214,10 @@
             this.znaj2.FlatAppearance.BorderSize = 0;
             this.znaj2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.znaj2.Image = ((System.Drawing.Image)(resources.GetObject("znaj2.Image")));
-            this.znaj2.Location = new System.Drawing.Point(37, 462);
+            this.znaj2.Location = new System.Drawing.Point(37, 463);
             this.znaj2.Margin = new System.Windows.Forms.Padding(0);
             this.znaj2.Name = "znaj2";
-            this.znaj2.Size = new System.Drawing.Size(160, 27);
+            this.znaj2.Size = new System.Drawing.Size(160, 18);
             this.znaj2.TabIndex = 13;
             this.znaj2.UseVisualStyleBackColor = false;
             this.znaj2.Click += new System.EventHandler(this.znaj2_Click);
@@ -132,19 +228,20 @@
             this.znaj1.FlatAppearance.BorderSize = 0;
             this.znaj1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.znaj1.Image = ((System.Drawing.Image)(resources.GetObject("znaj1.Image")));
-            this.znaj1.Location = new System.Drawing.Point(37, 435);
+            this.znaj1.Location = new System.Drawing.Point(37, 438);
             this.znaj1.Margin = new System.Windows.Forms.Padding(0);
             this.znaj1.Name = "znaj1";
-            this.znaj1.Size = new System.Drawing.Size(160, 27);
+            this.znaj1.Size = new System.Drawing.Size(160, 18);
             this.znaj1.TabIndex = 12;
             this.znaj1.UseVisualStyleBackColor = false;
+            this.znaj1.Click += new System.EventHandler(this.znaj1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(26, 403);
+            this.pictureBox1.Location = new System.Drawing.Point(30, 403);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 173);
+            this.pictureBox1.Size = new System.Drawing.Size(176, 173);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -155,7 +252,7 @@
             this.dodajZnajomego.FlatAppearance.BorderSize = 0;
             this.dodajZnajomego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dodajZnajomego.Image = ((System.Drawing.Image)(resources.GetObject("dodajZnajomego.Image")));
-            this.dodajZnajomego.Location = new System.Drawing.Point(26, 579);
+            this.dodajZnajomego.Location = new System.Drawing.Point(26, 620);
             this.dodajZnajomego.Margin = new System.Windows.Forms.Padding(0);
             this.dodajZnajomego.Name = "dodajZnajomego";
             this.dodajZnajomego.Size = new System.Drawing.Size(180, 28);
@@ -269,6 +366,16 @@
             this.userControl11.TabIndex = 0;
             this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(37, 118);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(110, 15);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
             // ConnGa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -281,8 +388,11 @@
             this.Text = "ConnGa";
             this.panel1.ResumeLayout(false);
             this.boczny.ResumeLayout(false);
+            this.boczny.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gry)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -307,5 +417,12 @@
         private profilKozy profilKozy1;
         private Aktywnosc aktywnosc1;
         private mojProfil mojProfil1;
+        private Button aktywBezBialego;
+        private Button mojProfBezBialego;
+        private Button zainstalBezBialego;
+        private Button biblioBezBialego;
+        private Button statyBezBialego;
+        private PictureBox gry;
+        private PictureBox pictureBox2;
     }
 }

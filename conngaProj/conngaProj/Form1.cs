@@ -13,10 +13,18 @@ namespace conngaProj
             statystykiW.BackColorChanged += (s, e) => {
                 statystykiW.FlatAppearance.MouseOverBackColor = statystykiW.BackColor;
             };
+            statystykiW.Hide();
+            bibliotekaW.Hide();
+            zainstalowaneW.Hide();
+            mojProfilW.Hide();
+            aktywnoscW.Hide();
 
             userControl11.Hide();
             userControl21.Hide();
             userControl31.Hide();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -183,6 +191,141 @@ namespace conngaProj
             userControl31.Hide();
             aktywnosc1.Hide();
             mojProfil1.Hide();
+        }
+
+        private void znaj1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statyBezBialego_Click(object sender, EventArgs e)
+        {
+            statystykiW.Show();
+            statyBezBialego.Hide();
+
+            bibliotekaW.Hide();
+            zainstalowaneW.Hide();
+            mojProfilW.Hide();
+            aktywnoscW.Hide();
+
+            biblioBezBialego.Show();
+            zainstalBezBialego.Show();
+            mojProfBezBialego.Show();
+            aktywBezBialego.Show();
+
+            userControl11.BringToFront();
+            userControl11.Show();
+
+            userControl21.Hide();
+            userControl31.Hide();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void aktywBezBialego_Click(object sender, EventArgs e)
+        {
+            aktywnoscW.Show();
+            aktywBezBialego.Hide();
+
+            statystykiW.Hide();
+            bibliotekaW.Hide();
+            zainstalowaneW.Hide();
+            mojProfilW.Hide();
+
+            statyBezBialego.Show();
+            biblioBezBialego.Show();
+            zainstalBezBialego.Show();
+            mojProfBezBialego.Show();
+
+            aktywnosc1.BringToFront();
+            aktywnosc1.Show();
+
+            userControl11.Hide();
+            userControl21.Hide();
+            userControl31.Hide();
+            mojProfil1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void zainstalBezBialego_Click(object sender, EventArgs e)
+        {
+            zainstalowaneW.Show();
+            zainstalBezBialego.Hide();
+
+            statystykiW.Hide();
+            bibliotekaW.Hide();
+            mojProfilW.Hide();
+            aktywnoscW.Hide();
+
+            statyBezBialego.Show();
+            biblioBezBialego.Show();
+            mojProfBezBialego.Show();
+            aktywBezBialego.Show();
+           
+            userControl31.BringToFront();
+            userControl31.Show();
+
+            userControl11.Hide();
+            userControl21.Hide();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void biblioBezBialego_Click(object sender, EventArgs e)
+        {
+            bibliotekaW.Show();
+            biblioBezBialego.Hide();
+
+            statystykiW.Hide();
+            zainstalowaneW.Hide();
+            mojProfilW.Hide();
+            aktywnoscW.Hide();
+
+            statyBezBialego.Show();
+            zainstalBezBialego.Show();
+            mojProfBezBialego.Show();
+            aktywBezBialego.Show();
+
+            userControl21.BringToFront();
+            userControl21.Show();
+
+            userControl11.Hide();
+            userControl31.Hide();
+            mojProfil1.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void mojProfBezBialego_Click(object sender, EventArgs e)
+        {
+            mojProfilW.Show();
+            mojProfBezBialego.Hide();
+
+            statystykiW.Hide();
+            bibliotekaW.Hide();
+            zainstalowaneW.Hide();
+            aktywnoscW.Hide();
+
+            statyBezBialego.Show();
+            biblioBezBialego.Show();
+            zainstalBezBialego.Show();
+            aktywBezBialego.Show();
+
+            mojProfil1.BringToFront();
+            mojProfil1.Show();
+
+            userControl11.Hide();
+            userControl21.Hide();
+            userControl31.Hide();
+            aktywnosc1.Hide();
+            profilKozy1.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
