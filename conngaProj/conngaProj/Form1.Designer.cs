@@ -81,7 +81,7 @@
             // profilKozy1
             // 
             this.profilKozy1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.profilKozy1.Location = new System.Drawing.Point(250, 66);
+            this.profilKozy1.Location = new System.Drawing.Point(250, 0);
             this.profilKozy1.Name = "profilKozy1";
             this.profilKozy1.Size = new System.Drawing.Size(1014, 681);
             this.profilKozy1.TabIndex = 5;
@@ -89,7 +89,7 @@
             // aktywnosc1
             // 
             this.aktywnosc1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.aktywnosc1.Location = new System.Drawing.Point(250, 51);
+            this.aktywnosc1.Location = new System.Drawing.Point(250, 0);
             this.aktywnosc1.Name = "aktywnosc1";
             this.aktywnosc1.Size = new System.Drawing.Size(1014, 681);
             this.aktywnosc1.TabIndex = 4;
@@ -97,7 +97,7 @@
             // mojProfil1
             // 
             this.mojProfil1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.mojProfil1.Location = new System.Drawing.Point(250, 38);
+            this.mojProfil1.Location = new System.Drawing.Point(250, 0);
             this.mojProfil1.Name = "mojProfil1";
             this.mojProfil1.Size = new System.Drawing.Size(1014, 681);
             this.mojProfil1.TabIndex = 3;
@@ -353,7 +353,7 @@
             // userControl31
             // 
             this.userControl31.BackColor = System.Drawing.SystemColors.GrayText;
-            this.userControl31.Location = new System.Drawing.Point(250, 24);
+            this.userControl31.Location = new System.Drawing.Point(250, 0);
             this.userControl31.Name = "userControl31";
             this.userControl31.Size = new System.Drawing.Size(1014, 681);
             this.userControl31.TabIndex = 2;
@@ -362,7 +362,7 @@
             // userControl21
             // 
             this.userControl21.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.userControl21.Location = new System.Drawing.Point(250, 12);
+            this.userControl21.Location = new System.Drawing.Point(250, 0);
             this.userControl21.Name = "userControl21";
             this.userControl21.Size = new System.Drawing.Size(1014, 681);
             this.userControl21.TabIndex = 1;
