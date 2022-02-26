@@ -34,6 +34,7 @@
             this.aktywnosc1 = new conngaProj.Aktywnosc();
             this.mojProfil1 = new conngaProj.mojProfil();
             this.boczny = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.gry = new System.Windows.Forms.PictureBox();
             this.aktywBezBialego = new System.Windows.Forms.Button();
             this.mojProfBezBialego = new System.Windows.Forms.Button();
@@ -53,13 +54,12 @@
             this.userControl31 = new conngaProj.UserControl3();
             this.userControl21 = new conngaProj.UserControl2();
             this.userControl11 = new conngaProj.UserControl1();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.boczny.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gry)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -128,10 +128,20 @@
             this.boczny.TabIndex = 1;
             this.boczny.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(37, 300);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(110, 15);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
             // gry
             // 
             this.gry.Image = ((System.Drawing.Image)(resources.GetObject("gry.Image")));
-            this.gry.Location = new System.Drawing.Point(30, 302);
+            this.gry.Location = new System.Drawing.Point(37, 150);
             this.gry.Name = "gry";
             this.gry.Size = new System.Drawing.Size(30, 12);
             this.gry.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -172,7 +182,7 @@
             this.zainstalBezBialego.FlatAppearance.BorderSize = 0;
             this.zainstalBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.zainstalBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("zainstalBezBialego.Image")));
-            this.zainstalBezBialego.Location = new System.Drawing.Point(26, 218);
+            this.zainstalBezBialego.Location = new System.Drawing.Point(26, 244);
             this.zainstalBezBialego.Margin = new System.Windows.Forms.Padding(0);
             this.zainstalBezBialego.Name = "zainstalBezBialego";
             this.zainstalBezBialego.Size = new System.Drawing.Size(180, 28);
@@ -186,7 +196,7 @@
             this.biblioBezBialego.FlatAppearance.BorderSize = 0;
             this.biblioBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.biblioBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("biblioBezBialego.Image")));
-            this.biblioBezBialego.Location = new System.Drawing.Point(26, 181);
+            this.biblioBezBialego.Location = new System.Drawing.Point(26, 206);
             this.biblioBezBialego.Margin = new System.Windows.Forms.Padding(0);
             this.biblioBezBialego.Name = "biblioBezBialego";
             this.biblioBezBialego.Size = new System.Drawing.Size(180, 28);
@@ -200,7 +210,7 @@
             this.statyBezBialego.FlatAppearance.BorderSize = 0;
             this.statyBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.statyBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("statyBezBialego.Image")));
-            this.statyBezBialego.Location = new System.Drawing.Point(26, 140);
+            this.statyBezBialego.Location = new System.Drawing.Point(26, 168);
             this.statyBezBialego.Margin = new System.Windows.Forms.Padding(0);
             this.statyBezBialego.Name = "statyBezBialego";
             this.statyBezBialego.Size = new System.Drawing.Size(180, 28);
@@ -294,7 +304,7 @@
             this.zainstalowaneW.FlatAppearance.BorderSize = 0;
             this.zainstalowaneW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.zainstalowaneW.Image = ((System.Drawing.Image)(resources.GetObject("zainstalowaneW.Image")));
-            this.zainstalowaneW.Location = new System.Drawing.Point(26, 218);
+            this.zainstalowaneW.Location = new System.Drawing.Point(26, 244);
             this.zainstalowaneW.Margin = new System.Windows.Forms.Padding(0);
             this.zainstalowaneW.Name = "zainstalowaneW";
             this.zainstalowaneW.Size = new System.Drawing.Size(180, 28);
@@ -308,7 +318,7 @@
             this.bibliotekaW.FlatAppearance.BorderSize = 0;
             this.bibliotekaW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bibliotekaW.Image = ((System.Drawing.Image)(resources.GetObject("bibliotekaW.Image")));
-            this.bibliotekaW.Location = new System.Drawing.Point(26, 181);
+            this.bibliotekaW.Location = new System.Drawing.Point(26, 206);
             this.bibliotekaW.Margin = new System.Windows.Forms.Padding(0);
             this.bibliotekaW.Name = "bibliotekaW";
             this.bibliotekaW.Size = new System.Drawing.Size(180, 28);
@@ -332,7 +342,7 @@
             this.statystykiW.FlatAppearance.BorderSize = 0;
             this.statystykiW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.statystykiW.Image = ((System.Drawing.Image)(resources.GetObject("statystykiW.Image")));
-            this.statystykiW.Location = new System.Drawing.Point(26, 140);
+            this.statystykiW.Location = new System.Drawing.Point(26, 168);
             this.statystykiW.Margin = new System.Windows.Forms.Padding(0);
             this.statystykiW.Name = "statystykiW";
             this.statystykiW.Size = new System.Drawing.Size(180, 28);
@@ -366,16 +376,6 @@
             this.userControl11.TabIndex = 0;
             this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(37, 118);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(110, 15);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
             // ConnGa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -389,10 +389,10 @@
             this.panel1.ResumeLayout(false);
             this.boczny.ResumeLayout(false);
             this.boczny.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gry)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
