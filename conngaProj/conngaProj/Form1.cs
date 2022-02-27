@@ -13,13 +13,15 @@ namespace conngaProj
             statystykiW.BackColorChanged += (s, e) => {
                 statystykiW.FlatAppearance.MouseOverBackColor = statystykiW.BackColor;
             };
-            statystykiW.Hide();
+
             bibliotekaW.Hide();
             zainstalowaneW.Hide();
             mojProfilW.Hide();
             aktywnoscW.Hide();
+            statystykiW.Show();
+            statyBezBialego.Hide();
 
-            userControl11.Hide();
+            userControl11.Show();
             biblioteka1.Hide();
             userControl31.Hide();
             mojProfil1.Hide();
@@ -417,6 +419,11 @@ namespace conngaProj
         }
 
         private void frndSucsInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void biblioteka1_Load(object sender, EventArgs e)
         {
 
         }

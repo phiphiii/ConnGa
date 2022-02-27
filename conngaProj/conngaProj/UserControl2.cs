@@ -44,17 +44,24 @@ namespace conngaProj
         {
             pictureBox6.Show();
             pictureBox5.Hide();
+            pictureBox1.Hide();
         }
 
         private void sortowanieAZ_Click(object sender, EventArgs e)
         {
             pictureBox5.Show();
             pictureBox6.Hide();
+            pictureBox1.Show();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe", "shell:RecycleBinFolder");
         }
     }
 }

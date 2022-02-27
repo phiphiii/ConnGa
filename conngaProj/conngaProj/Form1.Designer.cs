@@ -36,12 +36,12 @@
             this.profilKozy1 = new conngaProj.profilKozy();
             this.mojProfil1 = new conngaProj.mojProfil();
             this.boczny = new System.Windows.Forms.Panel();
+            this.znajSearchBtn = new System.Windows.Forms.Button();
             this.frndSucsInfo = new System.Windows.Forms.Label();
             this.listaZnajSwitch = new System.Windows.Forms.Button();
             this.medzieZnajAdd = new System.Windows.Forms.Button();
             this.medzieZnaj = new System.Windows.Forms.PictureBox();
             this.znajSearchTxt = new System.Windows.Forms.TextBox();
-            this.znajSearchBtn = new System.Windows.Forms.Button();
             this.frndList_add = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.gry = new System.Windows.Forms.PictureBox();
@@ -94,6 +94,7 @@
             this.biblioteka1.Name = "biblioteka1";
             this.biblioteka1.Size = new System.Drawing.Size(1015, 681);
             this.biblioteka1.TabIndex = 8;
+            this.biblioteka1.Load += new System.EventHandler(this.biblioteka1_Load);
             // 
             // userControl31
             // 
@@ -131,12 +132,12 @@
             // boczny
             // 
             this.boczny.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.boczny.Controls.Add(this.znajSearchBtn);
             this.boczny.Controls.Add(this.frndSucsInfo);
             this.boczny.Controls.Add(this.listaZnajSwitch);
             this.boczny.Controls.Add(this.medzieZnajAdd);
             this.boczny.Controls.Add(this.medzieZnaj);
             this.boczny.Controls.Add(this.znajSearchTxt);
-            this.boczny.Controls.Add(this.znajSearchBtn);
             this.boczny.Controls.Add(this.frndList_add);
             this.boczny.Controls.Add(this.pictureBox2);
             this.boczny.Controls.Add(this.gry);
@@ -160,6 +161,20 @@
             this.boczny.Size = new System.Drawing.Size(250, 681);
             this.boczny.TabIndex = 1;
             this.boczny.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // znajSearchBtn
+            // 
+            this.znajSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.znajSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.znajSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.znajSearchBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.znajSearchBtn.Image = ((System.Drawing.Image)(resources.GetObject("znajSearchBtn.Image")));
+            this.znajSearchBtn.Location = new System.Drawing.Point(212, 405);
+            this.znajSearchBtn.Name = "znajSearchBtn";
+            this.znajSearchBtn.Size = new System.Drawing.Size(23, 22);
+            this.znajSearchBtn.TabIndex = 22;
+            this.znajSearchBtn.UseVisualStyleBackColor = false;
+            this.znajSearchBtn.Click += new System.EventHandler(this.znajSearchBtn_Click);
             // 
             // frndSucsInfo
             // 
@@ -222,20 +237,6 @@
             this.znajSearchTxt.Size = new System.Drawing.Size(130, 12);
             this.znajSearchTxt.TabIndex = 23;
             this.znajSearchTxt.TextChanged += new System.EventHandler(this.znajSearchTxt_TextChanged);
-            // 
-            // znajSearchBtn
-            // 
-            this.znajSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.znajSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.znajSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.znajSearchBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.znajSearchBtn.Image = ((System.Drawing.Image)(resources.GetObject("znajSearchBtn.Image")));
-            this.znajSearchBtn.Location = new System.Drawing.Point(212, 411);
-            this.znajSearchBtn.Name = "znajSearchBtn";
-            this.znajSearchBtn.Size = new System.Drawing.Size(20, 20);
-            this.znajSearchBtn.TabIndex = 22;
-            this.znajSearchBtn.UseVisualStyleBackColor = false;
-            this.znajSearchBtn.Click += new System.EventHandler(this.znajSearchBtn_Click);
             // 
             // frndList_add
             // 
