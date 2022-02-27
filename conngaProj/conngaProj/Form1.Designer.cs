@@ -30,17 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConnGa));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.profilKozy1 = new conngaProj.profilKozy();
             this.aktywnosc1 = new conngaProj.Aktywnosc();
-            this.mojProfil1 = new conngaProj.mojProfil();
+            this.userControl31 = new conngaProj.UserControl3();
+            this.biblioteka1 = new conngaProj.biblioteka();
+            this.profilKozy1 = new conngaProj.profilKozy();
             this.boczny = new System.Windows.Forms.Panel();
-            this.frndSucsInfo = new System.Windows.Forms.Label();
-            this.listaZnajSwitch = new System.Windows.Forms.Button();
-            this.medzieZnajAdd = new System.Windows.Forms.Button();
-            this.medzieZnaj = new System.Windows.Forms.PictureBox();
-            this.znajSearchTxt = new System.Windows.Forms.TextBox();
-            this.znajSearchBtn = new System.Windows.Forms.Button();
-            this.frndList_add = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.gry = new System.Windows.Forms.PictureBox();
             this.aktywBezBialego = new System.Windows.Forms.Button();
@@ -50,7 +44,7 @@
             this.statyBezBialego = new System.Windows.Forms.Button();
             this.znaj2 = new System.Windows.Forms.Button();
             this.znaj1 = new System.Windows.Forms.Button();
-            this.frndList = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dodajZnajomego = new System.Windows.Forms.Button();
             this.aktywnoscW = new System.Windows.Forms.Button();
             this.mojProfilW = new System.Windows.Forms.Button();
@@ -58,27 +52,24 @@
             this.bibliotekaW = new System.Windows.Forms.Button();
             this.logo = new System.Windows.Forms.PictureBox();
             this.statystykiW = new System.Windows.Forms.Button();
-            this.userControl31 = new conngaProj.UserControl3();
-            this.userControl21 = new conngaProj.UserControl2();
             this.userControl11 = new conngaProj.UserControl1();
+            this.mojProfil1 = new conngaProj.mojProfil();
             this.panel1.SuspendLayout();
             this.boczny.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.medzieZnaj)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.frndList_add)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gry)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.frndList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.profilKozy1);
-            this.panel1.Controls.Add(this.aktywnosc1);
             this.panel1.Controls.Add(this.mojProfil1);
-            this.panel1.Controls.Add(this.boczny);
+            this.panel1.Controls.Add(this.aktywnosc1);
             this.panel1.Controls.Add(this.userControl31);
-            this.panel1.Controls.Add(this.userControl21);
+            this.panel1.Controls.Add(this.biblioteka1);
+            this.panel1.Controls.Add(this.profilKozy1);
+            this.panel1.Controls.Add(this.boczny);
             this.panel1.Controls.Add(this.userControl11);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -86,6 +77,30 @@
             this.panel1.Size = new System.Drawing.Size(1264, 681);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // aktywnosc1
+            // 
+            this.aktywnosc1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.aktywnosc1.Location = new System.Drawing.Point(250, 0);
+            this.aktywnosc1.Name = "aktywnosc1";
+            this.aktywnosc1.Size = new System.Drawing.Size(1015, 681);
+            this.aktywnosc1.TabIndex = 8;
+            // 
+            // userControl31
+            // 
+            this.userControl31.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.userControl31.Location = new System.Drawing.Point(250, 0);
+            this.userControl31.Name = "userControl31";
+            this.userControl31.Size = new System.Drawing.Size(1015, 681);
+            this.userControl31.TabIndex = 7;
+            // 
+            // biblioteka1
+            // 
+            this.biblioteka1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.biblioteka1.Location = new System.Drawing.Point(250, 0);
+            this.biblioteka1.Name = "biblioteka1";
+            this.biblioteka1.Size = new System.Drawing.Size(1015, 681);
+            this.biblioteka1.TabIndex = 6;
             // 
             // profilKozy1
             // 
@@ -96,32 +111,9 @@
             this.profilKozy1.TabIndex = 5;
             this.profilKozy1.Load += new System.EventHandler(this.profilKozy1_Load);
             // 
-            // aktywnosc1
-            // 
-            this.aktywnosc1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.aktywnosc1.Location = new System.Drawing.Point(250, 0);
-            this.aktywnosc1.Name = "aktywnosc1";
-            this.aktywnosc1.Size = new System.Drawing.Size(1014, 681);
-            this.aktywnosc1.TabIndex = 4;
-            // 
-            // mojProfil1
-            // 
-            this.mojProfil1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.mojProfil1.Location = new System.Drawing.Point(250, 0);
-            this.mojProfil1.Name = "mojProfil1";
-            this.mojProfil1.Size = new System.Drawing.Size(1014, 681);
-            this.mojProfil1.TabIndex = 3;
-            // 
             // boczny
             // 
             this.boczny.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.boczny.Controls.Add(this.frndSucsInfo);
-            this.boczny.Controls.Add(this.listaZnajSwitch);
-            this.boczny.Controls.Add(this.medzieZnajAdd);
-            this.boczny.Controls.Add(this.medzieZnaj);
-            this.boczny.Controls.Add(this.znajSearchTxt);
-            this.boczny.Controls.Add(this.znajSearchBtn);
-            this.boczny.Controls.Add(this.frndList_add);
             this.boczny.Controls.Add(this.pictureBox2);
             this.boczny.Controls.Add(this.gry);
             this.boczny.Controls.Add(this.aktywBezBialego);
@@ -131,7 +123,7 @@
             this.boczny.Controls.Add(this.statyBezBialego);
             this.boczny.Controls.Add(this.znaj2);
             this.boczny.Controls.Add(this.znaj1);
-            this.boczny.Controls.Add(this.frndList);
+            this.boczny.Controls.Add(this.pictureBox1);
             this.boczny.Controls.Add(this.dodajZnajomego);
             this.boczny.Controls.Add(this.aktywnoscW);
             this.boczny.Controls.Add(this.mojProfilW);
@@ -144,93 +136,6 @@
             this.boczny.Size = new System.Drawing.Size(250, 681);
             this.boczny.TabIndex = 1;
             this.boczny.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // frndSucsInfo
-            // 
-            this.frndSucsInfo.AutoSize = true;
-            this.frndSucsInfo.ForeColor = System.Drawing.Color.Red;
-            this.frndSucsInfo.Location = new System.Drawing.Point(23, 588);
-            this.frndSucsInfo.Name = "frndSucsInfo";
-            this.frndSucsInfo.Size = new System.Drawing.Size(0, 15);
-            this.frndSucsInfo.TabIndex = 28;
-            this.frndSucsInfo.Click += new System.EventHandler(this.frndSucsInfo_Click);
-            // 
-            // listaZnajSwitch
-            // 
-            this.listaZnajSwitch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.listaZnajSwitch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.listaZnajSwitch.FlatAppearance.BorderSize = 0;
-            this.listaZnajSwitch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.listaZnajSwitch.Image = ((System.Drawing.Image)(resources.GetObject("listaZnajSwitch.Image")));
-            this.listaZnajSwitch.Location = new System.Drawing.Point(27, 621);
-            this.listaZnajSwitch.Margin = new System.Windows.Forms.Padding(0);
-            this.listaZnajSwitch.Name = "listaZnajSwitch";
-            this.listaZnajSwitch.Size = new System.Drawing.Size(180, 28);
-            this.listaZnajSwitch.TabIndex = 27;
-            this.listaZnajSwitch.UseVisualStyleBackColor = false;
-            this.listaZnajSwitch.Click += new System.EventHandler(this.listaZnajSwitch_Click);
-            // 
-            // medzieZnajAdd
-            // 
-            this.medzieZnajAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.medzieZnajAdd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.medzieZnajAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.medzieZnajAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.medzieZnajAdd.Image = ((System.Drawing.Image)(resources.GetObject("medzieZnajAdd.Image")));
-            this.medzieZnajAdd.Location = new System.Drawing.Point(174, 439);
-            this.medzieZnajAdd.Name = "medzieZnajAdd";
-            this.medzieZnajAdd.Size = new System.Drawing.Size(20, 18);
-            this.medzieZnajAdd.TabIndex = 26;
-            this.medzieZnajAdd.UseVisualStyleBackColor = false;
-            this.medzieZnajAdd.Click += new System.EventHandler(this.medzieZnajAdd_Click);
-            // 
-            // medzieZnaj
-            // 
-            this.medzieZnaj.Image = ((System.Drawing.Image)(resources.GetObject("medzieZnaj.Image")));
-            this.medzieZnaj.Location = new System.Drawing.Point(37, 438);
-            this.medzieZnaj.Name = "medzieZnaj";
-            this.medzieZnaj.Size = new System.Drawing.Size(161, 20);
-            this.medzieZnaj.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.medzieZnaj.TabIndex = 25;
-            this.medzieZnaj.TabStop = false;
-            this.medzieZnaj.Click += new System.EventHandler(this.medzieZnaj_Click);
-            // 
-            // znajSearchTxt
-            // 
-            this.znajSearchTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.znajSearchTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.znajSearchTxt.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.znajSearchTxt.ForeColor = System.Drawing.Color.White;
-            this.znajSearchTxt.Location = new System.Drawing.Point(65, 411);
-            this.znajSearchTxt.Name = "znajSearchTxt";
-            this.znajSearchTxt.Size = new System.Drawing.Size(130, 12);
-            this.znajSearchTxt.TabIndex = 23;
-            this.znajSearchTxt.TextChanged += new System.EventHandler(this.znajSearchTxt_TextChanged);
-            // 
-            // znajSearchBtn
-            // 
-            this.znajSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.znajSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.znajSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.znajSearchBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.znajSearchBtn.Image = ((System.Drawing.Image)(resources.GetObject("znajSearchBtn.Image")));
-            this.znajSearchBtn.Location = new System.Drawing.Point(212, 403);
-            this.znajSearchBtn.Name = "znajSearchBtn";
-            this.znajSearchBtn.Size = new System.Drawing.Size(31, 31);
-            this.znajSearchBtn.TabIndex = 22;
-            this.znajSearchBtn.UseVisualStyleBackColor = false;
-            this.znajSearchBtn.Click += new System.EventHandler(this.znajSearchBtn_Click);
-            // 
-            // frndList_add
-            // 
-            this.frndList_add.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.frndList_add.Image = ((System.Drawing.Image)(resources.GetObject("frndList_add.Image")));
-            this.frndList_add.Location = new System.Drawing.Point(30, 403);
-            this.frndList_add.Name = "frndList_add";
-            this.frndList_add.Size = new System.Drawing.Size(176, 173);
-            this.frndList_add.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.frndList_add.TabIndex = 21;
-            this.frndList_add.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -357,16 +262,15 @@
             this.znaj1.UseVisualStyleBackColor = false;
             this.znaj1.Click += new System.EventHandler(this.znaj1_Click);
             // 
-            // frndList
+            // pictureBox1
             // 
-            this.frndList.Image = ((System.Drawing.Image)(resources.GetObject("frndList.Image")));
-            this.frndList.Location = new System.Drawing.Point(30, 403);
-            this.frndList.Name = "frndList";
-            this.frndList.Size = new System.Drawing.Size(176, 173);
-            this.frndList.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.frndList.TabIndex = 11;
-            this.frndList.TabStop = false;
-            this.frndList.Click += new System.EventHandler(this.frndList_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(30, 403);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(176, 173);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // dodajZnajomego
             // 
@@ -463,23 +367,6 @@
             this.statystykiW.UseVisualStyleBackColor = false;
             this.statystykiW.Click += new System.EventHandler(this.button3_Click);
             // 
-            // userControl31
-            // 
-            this.userControl31.BackColor = System.Drawing.SystemColors.GrayText;
-            this.userControl31.Location = new System.Drawing.Point(250, 0);
-            this.userControl31.Name = "userControl31";
-            this.userControl31.Size = new System.Drawing.Size(1014, 681);
-            this.userControl31.TabIndex = 2;
-            this.userControl31.Load += new System.EventHandler(this.userControl31_Load);
-            // 
-            // userControl21
-            // 
-            this.userControl21.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.userControl21.Location = new System.Drawing.Point(250, 0);
-            this.userControl21.Name = "userControl21";
-            this.userControl21.Size = new System.Drawing.Size(1014, 681);
-            this.userControl21.TabIndex = 1;
-            // 
             // userControl11
             // 
             this.userControl11.BackColor = System.Drawing.SystemColors.Info;
@@ -488,6 +375,14 @@
             this.userControl11.Size = new System.Drawing.Size(1014, 681);
             this.userControl11.TabIndex = 0;
             this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
+            // 
+            // mojProfil1
+            // 
+            this.mojProfil1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.mojProfil1.Location = new System.Drawing.Point(250, 0);
+            this.mojProfil1.Name = "mojProfil1";
+            this.mojProfil1.Size = new System.Drawing.Size(1015, 681);
+            this.mojProfil1.TabIndex = 9;
             // 
             // ConnGa
             // 
@@ -502,11 +397,9 @@
             this.panel1.ResumeLayout(false);
             this.boczny.ResumeLayout(false);
             this.boczny.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.medzieZnaj)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.frndList_add)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gry)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.frndList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.ResumeLayout(false);
 
@@ -517,8 +410,6 @@
         private Panel panel1;
         private Panel boczny;
         private Button statystykiW;
-        private UserControl3 userControl31;
-        private UserControl2 userControl21;
         private UserControl1 userControl11;
         private PictureBox logo;
         private Button bibliotekaW;
@@ -528,10 +419,8 @@
         private Button zainstalowaneW;
         private Button znaj2;
         private Button znaj1;
-        private PictureBox frndList;
+        private PictureBox pictureBox1;
         private profilKozy profilKozy1;
-        private Aktywnosc aktywnosc1;
-        private mojProfil mojProfil1;
         private Button aktywBezBialego;
         private Button mojProfBezBialego;
         private Button zainstalBezBialego;
@@ -539,12 +428,9 @@
         private Button statyBezBialego;
         private PictureBox gry;
         private PictureBox pictureBox2;
-        private Button znajSearchBtn;
-        private PictureBox frndList_add;
-        private TextBox znajSearchTxt;
-        private Button medzieZnajAdd;
-        private PictureBox medzieZnaj;
-        private Button listaZnajSwitch;
-        private Label frndSucsInfo;
+        private UserControl3 userControl31;
+        private biblioteka biblioteka1;
+        private Aktywnosc aktywnosc1;
+        private mojProfil mojProfil1;
     }
 }
