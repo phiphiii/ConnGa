@@ -145,12 +145,13 @@
             // 
             this.btn_edit_prof.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.btn_edit_prof.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_edit_prof.FlatAppearance.BorderSize = 0;
             this.btn_edit_prof.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_edit_prof.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.btn_edit_prof.Image = ((System.Drawing.Image)(resources.GetObject("btn_edit_prof.Image")));
             this.btn_edit_prof.Location = new System.Drawing.Point(804, 225);
             this.btn_edit_prof.Name = "btn_edit_prof";
-            this.btn_edit_prof.Size = new System.Drawing.Size(186, 48);
+            this.btn_edit_prof.Size = new System.Drawing.Size(189, 35);
             this.btn_edit_prof.TabIndex = 8;
             this.btn_edit_prof.UseVisualStyleBackColor = false;
             this.btn_edit_prof.Click += new System.EventHandler(this.btn_edit_prof_Click);
