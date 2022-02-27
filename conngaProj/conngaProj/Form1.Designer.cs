@@ -153,6 +153,7 @@
             // aktywBezBialego
             // 
             this.aktywBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.aktywBezBialego.Cursor = System.Windows.Forms.Cursors.Hand;
             this.aktywBezBialego.FlatAppearance.BorderSize = 0;
             this.aktywBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aktywBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("aktywBezBialego.Image")));
@@ -167,6 +168,7 @@
             // mojProfBezBialego
             // 
             this.mojProfBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.mojProfBezBialego.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mojProfBezBialego.FlatAppearance.BorderSize = 0;
             this.mojProfBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mojProfBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("mojProfBezBialego.Image")));
@@ -181,6 +183,7 @@
             // zainstalBezBialego
             // 
             this.zainstalBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.zainstalBezBialego.Cursor = System.Windows.Forms.Cursors.Hand;
             this.zainstalBezBialego.FlatAppearance.BorderSize = 0;
             this.zainstalBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.zainstalBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("zainstalBezBialego.Image")));
@@ -195,6 +198,7 @@
             // biblioBezBialego
             // 
             this.biblioBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.biblioBezBialego.Cursor = System.Windows.Forms.Cursors.Hand;
             this.biblioBezBialego.FlatAppearance.BorderSize = 0;
             this.biblioBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.biblioBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("biblioBezBialego.Image")));
@@ -209,6 +213,7 @@
             // statyBezBialego
             // 
             this.statyBezBialego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.statyBezBialego.Cursor = System.Windows.Forms.Cursors.Hand;
             this.statyBezBialego.FlatAppearance.BorderSize = 0;
             this.statyBezBialego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.statyBezBialego.Image = ((System.Drawing.Image)(resources.GetObject("statyBezBialego.Image")));
@@ -223,6 +228,7 @@
             // znaj2
             // 
             this.znaj2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
+            this.znaj2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.znaj2.FlatAppearance.BorderSize = 0;
             this.znaj2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.znaj2.Image = ((System.Drawing.Image)(resources.GetObject("znaj2.Image")));
@@ -261,6 +267,7 @@
             // dodajZnajomego
             // 
             this.dodajZnajomego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.dodajZnajomego.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dodajZnajomego.FlatAppearance.BorderSize = 0;
             this.dodajZnajomego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dodajZnajomego.Image = ((System.Drawing.Image)(resources.GetObject("dodajZnajomego.Image")));

@@ -65,5 +65,10 @@ namespace conngaProj
             ostatnioUruchamianeGry.Hide();
             ostatnioUruchamianeGryTest.Show();
         }
+
+        private void ostatnioUruchamianeGryTest_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -61,6 +61,7 @@
             // dodajZnaj
             // 
             this.dodajZnaj.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.dodajZnaj.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dodajZnaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dodajZnaj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.dodajZnaj.Image = ((System.Drawing.Image)(resources.GetObject("dodajZnaj.Image")));
@@ -74,6 +75,7 @@
             // cnclZnaj
             // 
             this.cnclZnaj.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.cnclZnaj.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cnclZnaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cnclZnaj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.cnclZnaj.Image = ((System.Drawing.Image)(resources.GetObject("cnclZnaj.Image")));
