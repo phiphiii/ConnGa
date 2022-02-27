@@ -65,9 +65,9 @@
             this.dodajZnaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dodajZnaj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.dodajZnaj.Image = ((System.Drawing.Image)(resources.GetObject("dodajZnaj.Image")));
-            this.dodajZnaj.Location = new System.Drawing.Point(809, 234);
+            this.dodajZnaj.Location = new System.Drawing.Point(800, 226);
             this.dodajZnaj.Name = "dodajZnaj";
-            this.dodajZnaj.Size = new System.Drawing.Size(184, 38);
+            this.dodajZnaj.Size = new System.Drawing.Size(193, 42);
             this.dodajZnaj.TabIndex = 3;
             this.dodajZnaj.UseVisualStyleBackColor = false;
             this.dodajZnaj.Click += new System.EventHandler(this.dodajZnaj_Click);
@@ -79,9 +79,9 @@
             this.cnclZnaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cnclZnaj.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.cnclZnaj.Image = ((System.Drawing.Image)(resources.GetObject("cnclZnaj.Image")));
-            this.cnclZnaj.Location = new System.Drawing.Point(809, 234);
+            this.cnclZnaj.Location = new System.Drawing.Point(800, 226);
             this.cnclZnaj.Name = "cnclZnaj";
-            this.cnclZnaj.Size = new System.Drawing.Size(184, 38);
+            this.cnclZnaj.Size = new System.Drawing.Size(193, 42);
             this.cnclZnaj.TabIndex = 4;
             this.cnclZnaj.UseVisualStyleBackColor = false;
             this.cnclZnaj.Click += new System.EventHandler(this.cnclZnaj_Click);

@@ -25,13 +25,6 @@ namespace conngaProj
             mojProfil1.Hide();
             aktywnosc1.Hide();
             profilKozy1.Hide();
-            frndList_add.Hide();
-            znajSearchBtn.Hide();
-            znajSearchTxt.Hide();
-
-            medzieZnajAdd.Hide();
-            medzieZnaj.Hide();
-            listaZnajSwitch.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -185,12 +178,7 @@ namespace conngaProj
 
         private void dodajZnajomego_Click(object sender, EventArgs e) // button dodaj znajomego
         {
-            frndList.Hide();
-            frndList_add.Show();
-            znajSearchBtn.Show();
-            listaZnajSwitch.Show();
-            znajSearchTxt.Show();
-            znajSearchTxt.BringToFront();
+
         }
 
         private void znaj2_Click(object sender, EventArgs e) // button profil Kozy
@@ -358,63 +346,6 @@ namespace conngaProj
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frndList_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void znajSearchBtn_Click(object sender, EventArgs e)
-        {
-            string znajinput = znajSearchTxt.Text;
-            if (znajinput == "medzie")
-            {
-                frndSucsInfo.Text = "";
-                medzieZnaj.Show();
-                medzieZnaj.BringToFront();
-                medzieZnajAdd.Show();
-                medzieZnajAdd.BringToFront();
-                frndSucsInfo.ForeColor = Color.Green;
-
-            }
-            else
-            {
-                frndSucsInfo.ForeColor = Color.Red;
-                frndSucsInfo.Text = "Nie znaleziono takiego u¿ytkownika";
-            }
-        }
-
-        private void medzieZnajAdd_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void medzieZnaj_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listaZnajSwitch_Click(object sender, EventArgs e)
-        {
-            listaZnajSwitch.Hide();
-            frndList_add.Hide();
-            znajSearchBtn.Hide();
-            znajSearchTxt.Hide();
-
-            medzieZnajAdd.Hide();
-            medzieZnaj.Hide();
-            frndList.Show();
-        }
-
-        private void znajSearchTxt_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frndSucsInfo_Click(object sender, EventArgs e)
         {
 
         }
