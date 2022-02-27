@@ -25,6 +25,13 @@ namespace conngaProj
             mojProfil1.Hide();
             aktywnosc1.Hide();
             profilKozy1.Hide();
+            frndList_add.Hide();
+            znajSearchBtn.Hide();
+            znajSearchTxt.Hide();
+
+            medzieZnajAdd.Hide();
+            medzieZnaj.Hide();
+            listaZnajSwitch.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -118,7 +125,7 @@ namespace conngaProj
             userControl21.BringToFront();
         }
 
-        private void mojProfil_Click(object sender, EventArgs e) // button mï¿½j profil
+        private void mojProfil_Click(object sender, EventArgs e) // button mój profil
         {
             mojProfil1.BringToFront();
             mojProfil1.Show();
@@ -164,7 +171,7 @@ namespace conngaProj
             profilKozy1.Hide();
         }
 
-        private void aktywnoscW_Click(object sender, EventArgs e) // button aktywnoï¿½ï¿½
+        private void aktywnoscW_Click(object sender, EventArgs e) // button aktywnoœæ
         {
             aktywnosc1.BringToFront();
             aktywnosc1.Show();
@@ -178,7 +185,12 @@ namespace conngaProj
 
         private void dodajZnajomego_Click(object sender, EventArgs e) // button dodaj znajomego
         {
-
+            frndList.Hide();
+            frndList_add.Show();
+            znajSearchBtn.Show();
+            listaZnajSwitch.Show();
+            znajSearchTxt.Show();
+            znajSearchTxt.BringToFront();
         }
 
         private void znaj2_Click(object sender, EventArgs e) // button profil Kozy
@@ -274,7 +286,7 @@ namespace conngaProj
             biblioBezBialego.Show();
             mojProfBezBialego.Show();
             aktywBezBialego.Show();
-
+           
             userControl31.BringToFront();
             userControl31.Show();
 
@@ -365,23 +377,20 @@ namespace conngaProj
                 medzieZnaj.BringToFront();
                 medzieZnajAdd.Show();
                 medzieZnajAdd.BringToFront();
-                frndSucsInfo.ForeColor = Color.Green;
 
             }
             else
             {
                 frndSucsInfo.ForeColor = Color.Red;
-                frndSucsInfo.Text = "Nie znaleziono takiego uï¿½ytkownika";
+                frndSucsInfo.Text = "Nie znaleziono takiego u¿ytkownika";
             }
         }
 
         private void medzieZnajAdd_Click(object sender, EventArgs e)
         {
             frndSucsInfo.ForeColor = Color.Green;
-            frndSucsInfo.Text = "Pomyï¿½lnie wysï¿½ano zaproszenie :))";
-
+            frndSucsInfo.Text = "Pomyœlnie dodano u¿ytkownika :))";
         }
-        //27.02.21 - 8:50Pm - A message to all the people who decided to even think EVEN THINK about making something in Windows Forms. DON'T DO NOT JUST DON'T MAKE A WEBSITE OR SOMETHING DO NOT EVEN TRY MAKING THIS, THIS IS PAIN.
 
         private void medzieZnaj_Click(object sender, EventArgs e)
         {
@@ -398,6 +407,7 @@ namespace conngaProj
             medzieZnajAdd.Hide();
             medzieZnaj.Hide();
             frndList.Show();
+
             frndSucsInfo.Text = "";
         }
 
@@ -411,6 +421,6 @@ namespace conngaProj
 
         }
     }
-
+    //27.02.21 - 8:50Pm - A message to all the people who decided to even think EVEN THINK about making something in Windows Forms. DON'T DO NOT JUST DON'T MAKE A WEBSITE OR SOMETHING DO NOT EVEN TRY MAKING THIS, THIS IS PAIN.
 
 }
