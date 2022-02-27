@@ -32,9 +32,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.popularneGryTest = new System.Windows.Forms.PictureBox();
             this.ostatnioUruchamianeGryTest = new System.Windows.Forms.PictureBox();
             this.ostatnioUruchamianeGry = new System.Windows.Forms.PictureBox();
-            this.popularneGryTest = new System.Windows.Forms.PictureBox();
             this.popularneGry = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,9 +47,9 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.popularneGryTest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ostatnioUruchamianeGryTest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ostatnioUruchamianeGry)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popularneGryTest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popularneGry)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -79,9 +79,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel3.Controls.Add(this.popularneGryTest);
             this.panel3.Controls.Add(this.ostatnioUruchamianeGryTest);
             this.panel3.Controls.Add(this.ostatnioUruchamianeGry);
-            this.panel3.Controls.Add(this.popularneGryTest);
             this.panel3.Controls.Add(this.popularneGry);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.button3);
@@ -94,12 +94,22 @@
             this.panel3.Size = new System.Drawing.Size(1015, 279);
             this.panel3.TabIndex = 3;
             // 
+            // popularneGryTest
+            // 
+            this.popularneGryTest.Image = ((System.Drawing.Image)(resources.GetObject("popularneGryTest.Image")));
+            this.popularneGryTest.Location = new System.Drawing.Point(483, 85);
+            this.popularneGryTest.Name = "popularneGryTest";
+            this.popularneGryTest.Size = new System.Drawing.Size(516, 184);
+            this.popularneGryTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.popularneGryTest.TabIndex = 11;
+            this.popularneGryTest.TabStop = false;
+            // 
             // ostatnioUruchamianeGryTest
             // 
             this.ostatnioUruchamianeGryTest.Image = ((System.Drawing.Image)(resources.GetObject("ostatnioUruchamianeGryTest.Image")));
-            this.ostatnioUruchamianeGryTest.Location = new System.Drawing.Point(23, 92);
+            this.ostatnioUruchamianeGryTest.Location = new System.Drawing.Point(10, 86);
             this.ostatnioUruchamianeGryTest.Name = "ostatnioUruchamianeGryTest";
-            this.ostatnioUruchamianeGryTest.Size = new System.Drawing.Size(377, 155);
+            this.ostatnioUruchamianeGryTest.Size = new System.Drawing.Size(399, 177);
             this.ostatnioUruchamianeGryTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ostatnioUruchamianeGryTest.TabIndex = 13;
             this.ostatnioUruchamianeGryTest.TabStop = false;
@@ -114,16 +124,6 @@
             this.ostatnioUruchamianeGry.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ostatnioUruchamianeGry.TabIndex = 12;
             this.ostatnioUruchamianeGry.TabStop = false;
-            // 
-            // popularneGryTest
-            // 
-            this.popularneGryTest.Image = ((System.Drawing.Image)(resources.GetObject("popularneGryTest.Image")));
-            this.popularneGryTest.Location = new System.Drawing.Point(487, 92);
-            this.popularneGryTest.Name = "popularneGryTest";
-            this.popularneGryTest.Size = new System.Drawing.Size(506, 155);
-            this.popularneGryTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.popularneGryTest.TabIndex = 11;
-            this.popularneGryTest.TabStop = false;
             // 
             // popularneGry
             // 
@@ -246,9 +246,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.popularneGryTest)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ostatnioUruchamianeGryTest)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ostatnioUruchamianeGry)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popularneGryTest)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popularneGry)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

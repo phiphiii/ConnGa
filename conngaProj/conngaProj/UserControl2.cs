@@ -15,6 +15,9 @@ namespace conngaProj
         public biblioteka()
         {
             InitializeComponent();
+
+            pictureBox5.Hide();
+            pictureBox6.Hide();
         }
 
         private void biblioteka_Load(object sender, EventArgs e)
@@ -39,10 +42,17 @@ namespace conngaProj
 
         private void sortowanieZA_Click(object sender, EventArgs e)
         {
-
+            pictureBox6.Show();
+            pictureBox5.Hide();
         }
 
         private void sortowanieAZ_Click(object sender, EventArgs e)
+        {
+            pictureBox5.Show();
+            pictureBox6.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
 
         }

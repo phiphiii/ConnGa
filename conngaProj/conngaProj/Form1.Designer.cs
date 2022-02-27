@@ -230,9 +230,9 @@
             this.znajSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.znajSearchBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.znajSearchBtn.Image = ((System.Drawing.Image)(resources.GetObject("znajSearchBtn.Image")));
-            this.znajSearchBtn.Location = new System.Drawing.Point(212, 403);
+            this.znajSearchBtn.Location = new System.Drawing.Point(212, 411);
             this.znajSearchBtn.Name = "znajSearchBtn";
-            this.znajSearchBtn.Size = new System.Drawing.Size(31, 31);
+            this.znajSearchBtn.Size = new System.Drawing.Size(20, 20);
             this.znajSearchBtn.TabIndex = 22;
             this.znajSearchBtn.UseVisualStyleBackColor = false;
             this.znajSearchBtn.Click += new System.EventHandler(this.znajSearchBtn_Click);
