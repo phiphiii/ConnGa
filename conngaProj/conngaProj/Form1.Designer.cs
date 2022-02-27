@@ -85,6 +85,7 @@
             this.profilKozy1.Name = "profilKozy1";
             this.profilKozy1.Size = new System.Drawing.Size(1014, 681);
             this.profilKozy1.TabIndex = 5;
+            this.profilKozy1.Load += new System.EventHandler(this.profilKozy1_Load);
             // 
             // aktywnosc1
             // 
@@ -137,6 +138,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 20;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // gry
             // 
