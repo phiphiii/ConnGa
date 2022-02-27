@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConnGa));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.biblioteka1 = new conngaProj.biblioteka();
+            this.userControl31 = new conngaProj.UserControl3();
+            this.aktywnosc1 = new conngaProj.Aktywnosc();
             this.profilKozy1 = new conngaProj.profilKozy();
             this.mojProfil1 = new conngaProj.mojProfil();
             this.boczny = new System.Windows.Forms.Panel();
@@ -58,9 +61,6 @@
             this.logo = new System.Windows.Forms.PictureBox();
             this.statystykiW = new System.Windows.Forms.Button();
             this.userControl11 = new conngaProj.UserControl1();
-            this.userControl21 = new conngaProj.biblioteka();
-            this.userControl31 = new conngaProj.UserControl3();
-            this.aktywnosc1 = new conngaProj.Aktywnosc();
             this.panel1.SuspendLayout();
             this.boczny.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.medzieZnaj)).BeginInit();
@@ -73,12 +73,12 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.profilKozy1);
+            this.panel1.Controls.Add(this.biblioteka1);
+            this.panel1.Controls.Add(this.userControl31);
             this.panel1.Controls.Add(this.aktywnosc1);
+            this.panel1.Controls.Add(this.profilKozy1);
             this.panel1.Controls.Add(this.mojProfil1);
             this.panel1.Controls.Add(this.boczny);
-            this.panel1.Controls.Add(this.userControl31);
-            this.panel1.Controls.Add(this.userControl21);
             this.panel1.Controls.Add(this.userControl11);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -86,6 +86,30 @@
             this.panel1.Size = new System.Drawing.Size(1264, 681);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // biblioteka1
+            // 
+            this.biblioteka1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.biblioteka1.Location = new System.Drawing.Point(250, 0);
+            this.biblioteka1.Name = "biblioteka1";
+            this.biblioteka1.Size = new System.Drawing.Size(1015, 681);
+            this.biblioteka1.TabIndex = 8;
+            // 
+            // userControl31
+            // 
+            this.userControl31.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.userControl31.Location = new System.Drawing.Point(250, 0);
+            this.userControl31.Name = "userControl31";
+            this.userControl31.Size = new System.Drawing.Size(1015, 681);
+            this.userControl31.TabIndex = 7;
+            // 
+            // aktywnosc1
+            // 
+            this.aktywnosc1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.aktywnosc1.Location = new System.Drawing.Point(250, 0);
+            this.aktywnosc1.Name = "aktywnosc1";
+            this.aktywnosc1.Size = new System.Drawing.Size(1015, 681);
+            this.aktywnosc1.TabIndex = 6;
             // 
             // profilKozy1
             // 
@@ -464,31 +488,6 @@
             this.userControl11.TabIndex = 0;
             this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
             // 
-            // userControl21
-            // 
-            this.userControl21.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.userControl21.Location = new System.Drawing.Point(250, 0);
-            this.userControl21.Name = "userControl21";
-            this.userControl21.Size = new System.Drawing.Size(1014, 681);
-            this.userControl21.TabIndex = 1;
-            // 
-            // userControl31
-            // 
-            this.userControl31.BackColor = System.Drawing.SystemColors.GrayText;
-            this.userControl31.Location = new System.Drawing.Point(250, 0);
-            this.userControl31.Name = "userControl31";
-            this.userControl31.Size = new System.Drawing.Size(1014, 681);
-            this.userControl31.TabIndex = 2;
-            this.userControl31.Load += new System.EventHandler(this.userControl31_Load);
-            // 
-            // aktywnosc1
-            // 
-            this.aktywnosc1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.aktywnosc1.Location = new System.Drawing.Point(250, 0);
-            this.aktywnosc1.Name = "aktywnosc1";
-            this.aktywnosc1.Size = new System.Drawing.Size(1014, 681);
-            this.aktywnosc1.TabIndex = 4;
-            // 
             // ConnGa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -543,8 +542,8 @@
         private PictureBox medzieZnaj;
         private Button listaZnajSwitch;
         private Label frndSucsInfo;
-        private Aktywnosc aktywnosc1;
         private UserControl3 userControl31;
-        private biblioteka userControl21;
+        private Aktywnosc aktywnosc1;
+        private biblioteka biblioteka1;
     }
 }
