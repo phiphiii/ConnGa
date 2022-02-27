@@ -91,14 +91,12 @@ D:\ConnGa\ConnGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.run
 D:\ConnGa\ConnGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.dll
 D:\ConnGa\ConnGa\conngaProj\conngaProj\bin\Release\net6.0-windows\ref\conngaProj.dll
 D:\ConnGa\ConnGa\conngaProj\conngaProj\bin\Release\net6.0-windows\conngaProj.pdb
-D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.csproj.AssemblyReference.cache
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.Aktywnosc.resources
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.ConnGa.resources
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.mojProfil.resources
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.profilKozy.resources
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.Properties.Resources.resources
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.UserControl1.resources
-D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.UserControl2.resources
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.UserControl3.resources
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.csproj.GenerateResource.cache
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.GeneratedMSBuildEditorConfig.editorconfig
@@ -109,3 +107,4 @@ D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.dll
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\ref\conngaProj.dll
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.pdb
 D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.genruntimeconfig.cache
+D:\ConnGa\ConnGa\conngaProj\conngaProj\obj\Release\net6.0-windows\conngaProj.biblioteka.resources
