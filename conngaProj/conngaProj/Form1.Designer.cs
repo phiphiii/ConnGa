@@ -30,9 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConnGa));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.profilKozy1 = new conngaProj.profilKozy();
             this.aktywnosc1 = new conngaProj.Aktywnosc();
-            this.mojProfil1 = new conngaProj.mojProfil();
+            this.userControl31 = new conngaProj.UserControl3();
+            this.biblioteka1 = new conngaProj.biblioteka();
+            this.profilKozy1 = new conngaProj.profilKozy();
             this.boczny = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.gry = new System.Windows.Forms.PictureBox();
@@ -51,9 +52,8 @@
             this.bibliotekaW = new System.Windows.Forms.Button();
             this.logo = new System.Windows.Forms.PictureBox();
             this.statystykiW = new System.Windows.Forms.Button();
-            this.userControl31 = new conngaProj.UserControl3();
-            this.userControl21 = new conngaProj.UserControl2();
             this.userControl11 = new conngaProj.UserControl1();
+            this.mojProfil1 = new conngaProj.mojProfil();
             this.panel1.SuspendLayout();
             this.boczny.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -64,12 +64,12 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.profilKozy1);
-            this.panel1.Controls.Add(this.aktywnosc1);
             this.panel1.Controls.Add(this.mojProfil1);
-            this.panel1.Controls.Add(this.boczny);
+            this.panel1.Controls.Add(this.aktywnosc1);
             this.panel1.Controls.Add(this.userControl31);
-            this.panel1.Controls.Add(this.userControl21);
+            this.panel1.Controls.Add(this.biblioteka1);
+            this.panel1.Controls.Add(this.profilKozy1);
+            this.panel1.Controls.Add(this.boczny);
             this.panel1.Controls.Add(this.userControl11);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -77,6 +77,30 @@
             this.panel1.Size = new System.Drawing.Size(1264, 681);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // aktywnosc1
+            // 
+            this.aktywnosc1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.aktywnosc1.Location = new System.Drawing.Point(250, 0);
+            this.aktywnosc1.Name = "aktywnosc1";
+            this.aktywnosc1.Size = new System.Drawing.Size(1015, 681);
+            this.aktywnosc1.TabIndex = 8;
+            // 
+            // userControl31
+            // 
+            this.userControl31.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.userControl31.Location = new System.Drawing.Point(250, 0);
+            this.userControl31.Name = "userControl31";
+            this.userControl31.Size = new System.Drawing.Size(1015, 681);
+            this.userControl31.TabIndex = 7;
+            // 
+            // biblioteka1
+            // 
+            this.biblioteka1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.biblioteka1.Location = new System.Drawing.Point(250, 0);
+            this.biblioteka1.Name = "biblioteka1";
+            this.biblioteka1.Size = new System.Drawing.Size(1015, 681);
+            this.biblioteka1.TabIndex = 6;
             // 
             // profilKozy1
             // 
@@ -86,22 +110,6 @@
             this.profilKozy1.Size = new System.Drawing.Size(1014, 681);
             this.profilKozy1.TabIndex = 5;
             this.profilKozy1.Load += new System.EventHandler(this.profilKozy1_Load);
-            // 
-            // aktywnosc1
-            // 
-            this.aktywnosc1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.aktywnosc1.Location = new System.Drawing.Point(250, 0);
-            this.aktywnosc1.Name = "aktywnosc1";
-            this.aktywnosc1.Size = new System.Drawing.Size(1014, 681);
-            this.aktywnosc1.TabIndex = 4;
-            // 
-            // mojProfil1
-            // 
-            this.mojProfil1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.mojProfil1.Location = new System.Drawing.Point(250, 0);
-            this.mojProfil1.Name = "mojProfil1";
-            this.mojProfil1.Size = new System.Drawing.Size(1014, 681);
-            this.mojProfil1.TabIndex = 3;
             // 
             // boczny
             // 
@@ -359,23 +367,6 @@
             this.statystykiW.UseVisualStyleBackColor = false;
             this.statystykiW.Click += new System.EventHandler(this.button3_Click);
             // 
-            // userControl31
-            // 
-            this.userControl31.BackColor = System.Drawing.SystemColors.GrayText;
-            this.userControl31.Location = new System.Drawing.Point(250, 0);
-            this.userControl31.Name = "userControl31";
-            this.userControl31.Size = new System.Drawing.Size(1014, 681);
-            this.userControl31.TabIndex = 2;
-            this.userControl31.Load += new System.EventHandler(this.userControl31_Load);
-            // 
-            // userControl21
-            // 
-            this.userControl21.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.userControl21.Location = new System.Drawing.Point(250, 0);
-            this.userControl21.Name = "userControl21";
-            this.userControl21.Size = new System.Drawing.Size(1014, 681);
-            this.userControl21.TabIndex = 1;
-            // 
             // userControl11
             // 
             this.userControl11.BackColor = System.Drawing.SystemColors.Info;
@@ -384,6 +375,14 @@
             this.userControl11.Size = new System.Drawing.Size(1014, 681);
             this.userControl11.TabIndex = 0;
             this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
+            // 
+            // mojProfil1
+            // 
+            this.mojProfil1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.mojProfil1.Location = new System.Drawing.Point(250, 0);
+            this.mojProfil1.Name = "mojProfil1";
+            this.mojProfil1.Size = new System.Drawing.Size(1015, 681);
+            this.mojProfil1.TabIndex = 9;
             // 
             // ConnGa
             // 
@@ -411,8 +410,6 @@
         private Panel panel1;
         private Panel boczny;
         private Button statystykiW;
-        private UserControl3 userControl31;
-        private UserControl2 userControl21;
         private UserControl1 userControl11;
         private PictureBox logo;
         private Button bibliotekaW;
@@ -424,8 +421,6 @@
         private Button znaj1;
         private PictureBox pictureBox1;
         private profilKozy profilKozy1;
-        private Aktywnosc aktywnosc1;
-        private mojProfil mojProfil1;
         private Button aktywBezBialego;
         private Button mojProfBezBialego;
         private Button zainstalBezBialego;
@@ -433,5 +428,9 @@
         private Button statyBezBialego;
         private PictureBox gry;
         private PictureBox pictureBox2;
+        private UserControl3 userControl31;
+        private biblioteka biblioteka1;
+        private Aktywnosc aktywnosc1;
+        private mojProfil mojProfil1;
     }
 }
