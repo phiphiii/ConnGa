@@ -20,7 +20,7 @@ namespace conngaProj
             aktywnoscW.Hide();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             mojProfil1.Hide();
             aktywnosc1.Hide();
@@ -35,13 +35,13 @@ namespace conngaProj
         private void Form1_Load(object sender, EventArgs e)
         {
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             userControl11.Show();
             userControl11.BringToFront();
@@ -51,8 +51,8 @@ namespace conngaProj
         {
             userControl11.Hide();
             userControl31.Hide();
-            biblioteka1.Show();
-            biblioteka1.BringToFront();
+            userControl21.Show();
+            userControl21.BringToFront();
         }
 
         private void button3_Click(object sender, EventArgs e) // button statystyki
@@ -60,7 +60,7 @@ namespace conngaProj
             userControl11.BringToFront();
             userControl11.Show();
 
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             mojProfil1.Hide();
             aktywnosc1.Hide();
@@ -86,7 +86,7 @@ namespace conngaProj
         {
             userControl11.Hide();
 
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Show();
             userControl31.BringToFront();
         }
@@ -114,8 +114,8 @@ namespace conngaProj
             aktywnosc1.Hide();
             profilKozy1.Hide();
 
-            biblioteka1.Show();
-            biblioteka1.BringToFront();
+            userControl21.Show();
+            userControl21.BringToFront();
         }
 
         private void mojProfil_Click(object sender, EventArgs e) // button mój profil
@@ -124,7 +124,7 @@ namespace conngaProj
             mojProfil1.Show();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             aktywnosc1.Hide();
             profilKozy1.Hide();
@@ -142,8 +142,8 @@ namespace conngaProj
 
         private void bibliotekaW_Click(object sender, EventArgs e) // button biblioteka
         {
-            biblioteka1.BringToFront();
-            biblioteka1.Show();
+            userControl21.BringToFront();
+            userControl21.Show();
 
             userControl11.Hide();
             userControl31.Hide();
@@ -158,7 +158,7 @@ namespace conngaProj
             userControl31.Show();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             mojProfil1.Hide();
             aktywnosc1.Hide();
             profilKozy1.Hide();
@@ -170,7 +170,7 @@ namespace conngaProj
             aktywnosc1.Show();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             mojProfil1.Hide();
             profilKozy1.Hide();
@@ -187,7 +187,7 @@ namespace conngaProj
             profilKozy1.Show();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             aktywnosc1.Hide();
             mojProfil1.Hide();
@@ -228,7 +228,7 @@ namespace conngaProj
             userControl11.BringToFront();
             userControl11.Show();
 
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             mojProfil1.Hide();
             aktywnosc1.Hide();
@@ -254,7 +254,7 @@ namespace conngaProj
             aktywnosc1.Show();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             mojProfil1.Hide();
             profilKozy1.Hide();
@@ -279,7 +279,7 @@ namespace conngaProj
             userControl31.Show();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             mojProfil1.Hide();
             aktywnosc1.Hide();
             profilKozy1.Hide();
@@ -300,8 +300,8 @@ namespace conngaProj
             mojProfBezBialego.Show();
             aktywBezBialego.Show();
 
-            biblioteka1.BringToFront();
-            biblioteka1.Show();
+            userControl21.BringToFront();
+            userControl21.Show();
 
             userControl11.Hide();
             userControl31.Hide();
@@ -329,7 +329,7 @@ namespace conngaProj
             mojProfil1.Show();
 
             userControl11.Hide();
-            biblioteka1.Hide();
+            userControl21.Hide();
             userControl31.Hide();
             aktywnosc1.Hide();
             profilKozy1.Hide();
