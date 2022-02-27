@@ -125,7 +125,7 @@ namespace conngaProj
             userControl21.BringToFront();
         }
 
-        private void mojProfil_Click(object sender, EventArgs e) // button mój profil
+        private void mojProfil_Click(object sender, EventArgs e) // button mï¿½j profil
         {
             mojProfil1.BringToFront();
             mojProfil1.Show();
@@ -171,7 +171,7 @@ namespace conngaProj
             profilKozy1.Hide();
         }
 
-        private void aktywnoscW_Click(object sender, EventArgs e) // button aktywnoœæ
+        private void aktywnoscW_Click(object sender, EventArgs e) // button aktywnoï¿½ï¿½
         {
             aktywnosc1.BringToFront();
             aktywnosc1.Show();
@@ -286,7 +286,7 @@ namespace conngaProj
             biblioBezBialego.Show();
             mojProfBezBialego.Show();
             aktywBezBialego.Show();
-           
+
             userControl31.BringToFront();
             userControl31.Show();
 
@@ -382,14 +382,14 @@ namespace conngaProj
             else
             {
                 frndSucsInfo.ForeColor = Color.Red;
-                frndSucsInfo.Text = "Nie znaleziono takiego u¿ytkownika";
+                frndSucsInfo.Text = "Nie znaleziono takiego uï¿½ytkownika";
             }
         }
 
         private void medzieZnajAdd_Click(object sender, EventArgs e)
         {
             frndSucsInfo.ForeColor = Color.Green;
-            frndSucsInfo.Text = "Pomyœlnie dodano u¿ytkownika :))";
+            frndSucsInfo.Text = "Pomyï¿½lnie dodano uï¿½ytkownika :))";
         }
 
         private void medzieZnaj_Click(object sender, EventArgs e)
