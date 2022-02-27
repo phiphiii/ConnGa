@@ -382,14 +382,14 @@ namespace conngaProj
             else
             {
                 frndSucsInfo.ForeColor = Color.Red;
-                frndSucsInfo.Text = "Nie znaleziono takiego u�ytkownika";
+                frndSucsInfo.Text = "Nie znaleziono takiego użytkownika";
             }
         }
 
         private void medzieZnajAdd_Click(object sender, EventArgs e)
         {
             frndSucsInfo.ForeColor = Color.Green;
-            frndSucsInfo.Text = "Pomy�lnie dodano u�ytkownika :))";
+            frndSucsInfo.Text = "Pomyślnie dodano użytkownika :))";
         }
 
         private void medzieZnaj_Click(object sender, EventArgs e)
