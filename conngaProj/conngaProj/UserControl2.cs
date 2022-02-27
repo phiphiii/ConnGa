@@ -10,41 +10,11 @@ using System.Windows.Forms;
 
 namespace conngaProj
 {
-    public partial class biblioteka : UserControl
+    public partial class UserControl2 : UserControl
     {
-        public biblioteka()
+        public UserControl2()
         {
             InitializeComponent();
-        }
-
-        private void biblioteka_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sortowanieSzukaj_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sortowanieZA_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sortowanieAZ_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

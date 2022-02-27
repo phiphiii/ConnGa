@@ -74,7 +74,7 @@
             this.chsBg.Image = ((System.Drawing.Image)(resources.GetObject("chsBg.Image")));
             this.chsBg.Location = new System.Drawing.Point(730, 224);
             this.chsBg.Name = "chsBg";
-            this.chsBg.Size = new System.Drawing.Size(260, 44);
+            this.chsBg.Size = new System.Drawing.Size(260, 52);
             this.chsBg.TabIndex = 2;
             this.chsBg.UseVisualStyleBackColor = false;
             this.chsBg.Click += new System.EventHandler(this.chsBg_Click);
@@ -82,13 +82,12 @@
             // chsBg2
             // 
             this.chsBg2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.chsBg2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chsBg2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chsBg2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.chsBg2.Image = ((System.Drawing.Image)(resources.GetObject("chsBg2.Image")));
-            this.chsBg2.Location = new System.Drawing.Point(729, 224);
+            this.chsBg2.Location = new System.Drawing.Point(724, 225);
             this.chsBg2.Name = "chsBg2";
-            this.chsBg2.Size = new System.Drawing.Size(260, 44);
+            this.chsBg2.Size = new System.Drawing.Size(271, 48);
             this.chsBg2.TabIndex = 3;
             this.chsBg2.UseVisualStyleBackColor = false;
             this.chsBg2.Click += new System.EventHandler(this.chsBg2_Click_1);
@@ -106,11 +105,10 @@
             // bg_chng_01
             // 
             this.bg_chng_01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
-            this.bg_chng_01.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bg_chng_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bg_chng_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
             this.bg_chng_01.Image = ((System.Drawing.Image)(resources.GetObject("bg_chng_01.Image")));
-            this.bg_chng_01.Location = new System.Drawing.Point(760, 282);
+            this.bg_chng_01.Location = new System.Drawing.Point(760, 284);
             this.bg_chng_01.Name = "bg_chng_01";
             this.bg_chng_01.Size = new System.Drawing.Size(202, 98);
             this.bg_chng_01.TabIndex = 5;
@@ -120,11 +118,10 @@
             // bg_chng_02
             // 
             this.bg_chng_02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
-            this.bg_chng_02.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bg_chng_02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bg_chng_02.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
             this.bg_chng_02.Image = ((System.Drawing.Image)(resources.GetObject("bg_chng_02.Image")));
-            this.bg_chng_02.Location = new System.Drawing.Point(760, 393);
+            this.bg_chng_02.Location = new System.Drawing.Point(760, 401);
             this.bg_chng_02.Name = "bg_chng_02";
             this.bg_chng_02.Size = new System.Drawing.Size(202, 98);
             this.bg_chng_02.TabIndex = 6;
@@ -152,9 +149,9 @@
             this.btn_edit_prof.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_edit_prof.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.btn_edit_prof.Image = ((System.Drawing.Image)(resources.GetObject("btn_edit_prof.Image")));
-            this.btn_edit_prof.Location = new System.Drawing.Point(807, 232);
+            this.btn_edit_prof.Location = new System.Drawing.Point(804, 225);
             this.btn_edit_prof.Name = "btn_edit_prof";
-            this.btn_edit_prof.Size = new System.Drawing.Size(182, 35);
+            this.btn_edit_prof.Size = new System.Drawing.Size(189, 35);
             this.btn_edit_prof.TabIndex = 8;
             this.btn_edit_prof.UseVisualStyleBackColor = false;
             this.btn_edit_prof.Click += new System.EventHandler(this.btn_edit_prof_Click);
@@ -168,7 +165,7 @@
             this.saveChngs.Image = ((System.Drawing.Image)(resources.GetObject("saveChngs.Image")));
             this.saveChngs.Location = new System.Drawing.Point(815, 166);
             this.saveChngs.Name = "saveChngs";
-            this.saveChngs.Size = new System.Drawing.Size(154, 44);
+            this.saveChngs.Size = new System.Drawing.Size(160, 53);
             this.saveChngs.TabIndex = 9;
             this.saveChngs.UseVisualStyleBackColor = false;
             this.saveChngs.Click += new System.EventHandler(this.saveChngs_Click);
@@ -179,7 +176,7 @@
             this.nickname_edit.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nickname_edit.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nickname_edit.ForeColor = System.Drawing.Color.White;
-            this.nickname_edit.Location = new System.Drawing.Point(211, 230);
+            this.nickname_edit.Location = new System.Drawing.Point(212, 232);
             this.nickname_edit.Name = "nickname_edit";
             this.nickname_edit.Size = new System.Drawing.Size(209, 32);
             this.nickname_edit.TabIndex = 10;
@@ -191,7 +188,7 @@
             this.nickname_saved.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.nickname_saved.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nickname_saved.ForeColor = System.Drawing.Color.White;
-            this.nickname_saved.Location = new System.Drawing.Point(200, 239);
+            this.nickname_saved.Location = new System.Drawing.Point(200, 238);
             this.nickname_saved.Name = "nickname_saved";
             this.nickname_saved.Size = new System.Drawing.Size(165, 29);
             this.nickname_saved.TabIndex = 11;
@@ -207,7 +204,7 @@
             this.chsGm.Image = ((System.Drawing.Image)(resources.GetObject("chsGm.Image")));
             this.chsGm.Location = new System.Drawing.Point(465, 224);
             this.chsGm.Name = "chsGm";
-            this.chsGm.Size = new System.Drawing.Size(260, 44);
+            this.chsGm.Size = new System.Drawing.Size(260, 52);
             this.chsGm.TabIndex = 12;
             this.chsGm.UseVisualStyleBackColor = false;
             this.chsGm.Click += new System.EventHandler(this.chsGm_Click);
@@ -229,9 +226,9 @@
             this.chsGm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chsGm2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.chsGm2.Image = ((System.Drawing.Image)(resources.GetObject("chsGm2.Image")));
-            this.chsGm2.Location = new System.Drawing.Point(465, 224);
+            this.chsGm2.Location = new System.Drawing.Point(465, 225);
             this.chsGm2.Name = "chsGm2";
-            this.chsGm2.Size = new System.Drawing.Size(260, 44);
+            this.chsGm2.Size = new System.Drawing.Size(260, 49);
             this.chsGm2.TabIndex = 14;
             this.chsGm2.UseVisualStyleBackColor = false;
             this.chsGm2.Click += new System.EventHandler(this.chsGm2_Click);
@@ -263,7 +260,7 @@
             "Minecraft",
             "Spore",
             "Wiedźmin 3: Dziki Gon"});
-            this.favGm_lista.Location = new System.Drawing.Point(465, 269);
+            this.favGm_lista.Location = new System.Drawing.Point(465, 274);
             this.favGm_lista.Name = "favGm_lista";
             this.favGm_lista.Size = new System.Drawing.Size(259, 235);
             this.favGm_lista.TabIndex = 17;
@@ -275,7 +272,7 @@
             this.favGm_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.favGm_label.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.favGm_label.ForeColor = System.Drawing.Color.White;
-            this.favGm_label.Location = new System.Drawing.Point(452, 247);
+            this.favGm_label.Location = new System.Drawing.Point(448, 246);
             this.favGm_label.Name = "favGm_label";
             this.favGm_label.Size = new System.Drawing.Size(181, 19);
             this.favGm_label.TabIndex = 18;
