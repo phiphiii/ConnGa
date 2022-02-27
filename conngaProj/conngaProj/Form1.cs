@@ -389,8 +389,11 @@ namespace conngaProj
 
         private void medzieZnajAdd_Click(object sender, EventArgs e)
         {
+            frndSucsInfo.ForeColor = Color.Green;
+            frndSucsInfo.Text = "Pomyœlnie wys³ano zaproszenie :))";
 
         }
+        //27.02.21 - 8:50Pm - A message to all the people who decided to even think EVEN THINK about making something in Windows Forms. DON'T DO NOT JUST DON'T MAKE A WEBSITE OR SOMETHING DO NOT EVEN TRY MAKING THIS, THIS IS PAIN.
 
         private void medzieZnaj_Click(object sender, EventArgs e)
         {
@@ -407,6 +410,7 @@ namespace conngaProj
             medzieZnajAdd.Hide();
             medzieZnaj.Hide();
             frndList.Show();
+            frndSucsInfo.Text = "";
         }
 
         private void znajSearchTxt_TextChanged(object sender, EventArgs e)
