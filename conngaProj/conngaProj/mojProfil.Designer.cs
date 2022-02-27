@@ -179,7 +179,7 @@
             this.nickname_edit.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nickname_edit.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nickname_edit.ForeColor = System.Drawing.Color.White;
-            this.nickname_edit.Location = new System.Drawing.Point(214, 226);
+            this.nickname_edit.Location = new System.Drawing.Point(211, 230);
             this.nickname_edit.Name = "nickname_edit";
             this.nickname_edit.Size = new System.Drawing.Size(209, 32);
             this.nickname_edit.TabIndex = 10;
