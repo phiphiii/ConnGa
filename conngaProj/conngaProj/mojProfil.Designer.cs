@@ -38,10 +38,18 @@
             this.bg_main_finished = new System.Windows.Forms.PictureBox();
             this.btn_edit_prof = new System.Windows.Forms.Button();
             this.saveChngs = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.nickname_edit = new System.Windows.Forms.TextBox();
+            this.nickname_saved = new System.Windows.Forms.Label();
+            this.chsGm = new System.Windows.Forms.Button();
+            this.chsGm_list = new System.Windows.Forms.PictureBox();
+            this.chsGm2 = new System.Windows.Forms.Button();
+            this.wrgNick = new System.Windows.Forms.Label();
+            this.favGm_lista = new System.Windows.Forms.ComboBox();
+            this.favGm_label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bg_main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chsBg_list)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bg_main_finished)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chsGm_list)).BeginInit();
             this.SuspendLayout();
             // 
             // bg_main
@@ -64,9 +72,9 @@
             this.chsBg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chsBg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.chsBg.Image = ((System.Drawing.Image)(resources.GetObject("chsBg.Image")));
-            this.chsBg.Location = new System.Drawing.Point(724, 221);
+            this.chsBg.Location = new System.Drawing.Point(730, 224);
             this.chsBg.Name = "chsBg";
-            this.chsBg.Size = new System.Drawing.Size(271, 57);
+            this.chsBg.Size = new System.Drawing.Size(260, 52);
             this.chsBg.TabIndex = 2;
             this.chsBg.UseVisualStyleBackColor = false;
             this.chsBg.Click += new System.EventHandler(this.chsBg_Click);
@@ -125,7 +133,7 @@
             this.bg_main_finished.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bg_main_finished.BackgroundImage")));
             this.bg_main_finished.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bg_main_finished.Image = ((System.Drawing.Image)(resources.GetObject("bg_main_finished.Image")));
-            this.bg_main_finished.Location = new System.Drawing.Point(-139, 373);
+            this.bg_main_finished.Location = new System.Drawing.Point(0, 0);
             this.bg_main_finished.Name = "bg_main_finished";
             this.bg_main_finished.Size = new System.Drawing.Size(1015, 681);
             this.bg_main_finished.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -161,24 +169,130 @@
             this.saveChngs.UseVisualStyleBackColor = false;
             this.saveChngs.Click += new System.EventHandler(this.saveChngs_Click);
             // 
-            // textBox1
+            // nickname_edit
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(212, 234);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(216, 28);
-            this.textBox1.TabIndex = 10;
+            this.nickname_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.nickname_edit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.nickname_edit.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nickname_edit.ForeColor = System.Drawing.Color.White;
+            this.nickname_edit.Location = new System.Drawing.Point(212, 232);
+            this.nickname_edit.Name = "nickname_edit";
+            this.nickname_edit.Size = new System.Drawing.Size(209, 32);
+            this.nickname_edit.TabIndex = 10;
+            this.nickname_edit.TextChanged += new System.EventHandler(this.nickname_edit_TextChanged);
+            // 
+            // nickname_saved
+            // 
+            this.nickname_saved.AutoSize = true;
+            this.nickname_saved.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.nickname_saved.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nickname_saved.ForeColor = System.Drawing.Color.White;
+            this.nickname_saved.Location = new System.Drawing.Point(200, 238);
+            this.nickname_saved.Name = "nickname_saved";
+            this.nickname_saved.Size = new System.Drawing.Size(165, 29);
+            this.nickname_saved.TabIndex = 11;
+            this.nickname_saved.Text = "ConngAdmin";
+            this.nickname_saved.Click += new System.EventHandler(this.nickname_saved_Click);
+            // 
+            // chsGm
+            // 
+            this.chsGm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.chsGm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chsGm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chsGm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.chsGm.Image = ((System.Drawing.Image)(resources.GetObject("chsGm.Image")));
+            this.chsGm.Location = new System.Drawing.Point(465, 224);
+            this.chsGm.Name = "chsGm";
+            this.chsGm.Size = new System.Drawing.Size(260, 52);
+            this.chsGm.TabIndex = 12;
+            this.chsGm.UseVisualStyleBackColor = false;
+            this.chsGm.Click += new System.EventHandler(this.chsGm_Click);
+            // 
+            // chsGm_list
+            // 
+            this.chsGm_list.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
+            this.chsGm_list.Location = new System.Drawing.Point(465, 263);
+            this.chsGm_list.Name = "chsGm_list";
+            this.chsGm_list.Size = new System.Drawing.Size(260, 246);
+            this.chsGm_list.TabIndex = 13;
+            this.chsGm_list.TabStop = false;
+            this.chsGm_list.Click += new System.EventHandler(this.chsGm_list_Click);
+            // 
+            // chsGm2
+            // 
+            this.chsGm2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.chsGm2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chsGm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chsGm2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.chsGm2.Image = ((System.Drawing.Image)(resources.GetObject("chsGm2.Image")));
+            this.chsGm2.Location = new System.Drawing.Point(465, 225);
+            this.chsGm2.Name = "chsGm2";
+            this.chsGm2.Size = new System.Drawing.Size(260, 49);
+            this.chsGm2.TabIndex = 14;
+            this.chsGm2.UseVisualStyleBackColor = false;
+            this.chsGm2.Click += new System.EventHandler(this.chsGm2_Click);
+            // 
+            // wrgNick
+            // 
+            this.wrgNick.AutoSize = true;
+            this.wrgNick.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.wrgNick.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.wrgNick.ForeColor = System.Drawing.Color.Red;
+            this.wrgNick.Location = new System.Drawing.Point(200, 274);
+            this.wrgNick.Name = "wrgNick";
+            this.wrgNick.Size = new System.Drawing.Size(0, 16);
+            this.wrgNick.TabIndex = 15;
+            this.wrgNick.Click += new System.EventHandler(this.wrgNick_Click);
+            // 
+            // favGm_lista
+            // 
+            this.favGm_lista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
+            this.favGm_lista.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
+            this.favGm_lista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.favGm_lista.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.favGm_lista.ForeColor = System.Drawing.Color.White;
+            this.favGm_lista.FormattingEnabled = true;
+            this.favGm_lista.Items.AddRange(new object[] {
+            "Among Us",
+            "CS:GO",
+            "Garry\'s Mod",
+            "Minecraft",
+            "Spore",
+            "Wiedźmin 3: Dziki Gon"});
+            this.favGm_lista.Location = new System.Drawing.Point(465, 274);
+            this.favGm_lista.Name = "favGm_lista";
+            this.favGm_lista.Size = new System.Drawing.Size(259, 235);
+            this.favGm_lista.TabIndex = 17;
+            this.favGm_lista.SelectionChangeCommitted += new System.EventHandler(this.favGm_lista_SelectionChangeCommitted);
+            // 
+            // favGm_label
+            // 
+            this.favGm_label.AutoSize = true;
+            this.favGm_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.favGm_label.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.favGm_label.ForeColor = System.Drawing.Color.White;
+            this.favGm_label.Location = new System.Drawing.Point(448, 246);
+            this.favGm_label.Name = "favGm_label";
+            this.favGm_label.Size = new System.Drawing.Size(181, 19);
+            this.favGm_label.TabIndex = 18;
+            this.favGm_label.Text = "Wiedźmin 3: Dziki Gon";
+            this.favGm_label.Click += new System.EventHandler(this.favGm_label_Click);
             // 
             // mojProfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_edit_prof);
+            this.Controls.Add(this.favGm_label);
+            this.Controls.Add(this.nickname_saved);
             this.Controls.Add(this.bg_main_finished);
+            this.Controls.Add(this.favGm_lista);
+            this.Controls.Add(this.wrgNick);
+            this.Controls.Add(this.chsGm2);
+            this.Controls.Add(this.chsGm_list);
+            this.Controls.Add(this.chsGm);
+            this.Controls.Add(this.nickname_edit);
             this.Controls.Add(this.saveChngs);
             this.Controls.Add(this.bg_chng_02);
             this.Controls.Add(this.bg_chng_01);
@@ -191,6 +305,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bg_main)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chsBg_list)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bg_main_finished)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chsGm_list)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,6 +322,13 @@
         private PictureBox bg_main_finished;
         private Button btn_edit_prof;
         private Button saveChngs;
-        private TextBox textBox1;
+        private TextBox nickname_edit;
+        private Label nickname_saved;
+        private Button chsGm;
+        private PictureBox chsGm_list;
+        private Button chsGm2;
+        private Label wrgNick;
+        private ComboBox favGm_lista;
+        private Label favGm_label;
     }
 }
