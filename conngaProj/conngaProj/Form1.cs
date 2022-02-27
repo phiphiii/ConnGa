@@ -377,7 +377,6 @@ namespace conngaProj
                 medzieZnaj.BringToFront();
                 medzieZnajAdd.Show();
                 medzieZnajAdd.BringToFront();
-                frndSucsInfo.ForeColor = Color.Green;
 
             }
             else
@@ -389,7 +388,8 @@ namespace conngaProj
 
         private void medzieZnajAdd_Click(object sender, EventArgs e)
         {
-
+            frndSucsInfo.ForeColor = Color.Green;
+            frndSucsInfo.Text = "Pomyœlnie dodano u¿ytkownika :))";
         }
 
         private void medzieZnaj_Click(object sender, EventArgs e)
@@ -407,6 +407,8 @@ namespace conngaProj
             medzieZnajAdd.Hide();
             medzieZnaj.Hide();
             frndList.Show();
+
+            frndSucsInfo.Text = "";
         }
 
         private void znajSearchTxt_TextChanged(object sender, EventArgs e)
