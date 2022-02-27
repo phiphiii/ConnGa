@@ -15,6 +15,30 @@ namespace conngaProj
         public mojProfil()
         {
             InitializeComponent();
+            chsBg2.Hide();
+        }
+
+        private void chsBg_Click(object sender, EventArgs e)
+        {
+            chsBg.Hide();
+            chsBg2.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chsBg2_Click(object sender, EventArgs e)
+        {
+            chsBg2.Hide();
+            chsBg.Show();
+        }
+
+        private void chsBg2_Click_1(object sender, EventArgs e)
+        {
+            chsBg2.Hide();
+            chsBg.Show();
         }
     }
 }

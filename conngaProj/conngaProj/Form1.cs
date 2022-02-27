@@ -191,6 +191,18 @@ namespace conngaProj
             userControl31.Hide();
             aktywnosc1.Hide();
             mojProfil1.Hide();
+
+            statystykiW.Hide();
+            aktywnoscW.Hide();
+            zainstalowaneW.Hide();
+            bibliotekaW.Hide();
+            mojProfilW.Hide();
+
+            statyBezBialego.Show();
+            aktywBezBialego.Show();
+            zainstalBezBialego.Show();
+            biblioBezBialego.Show();
+            mojProfBezBialego.Show();
         }
 
         private void znaj1_Click(object sender, EventArgs e)
